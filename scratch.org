@@ -1,0 +1,269 @@
+
+so variability _can_ be a good
+can we square the circle
+we believe so
+use variability to learn
+
+> Kheterpal describes how variation may be categorised into two groups.  Firstly, where a particular intervention is clearly evidenced, but fails to be implemented.  Secondly, where there are interventions for which a conclusive evidence base does not exist.
+
+> I# Scrapbooked
+
+ 
+
+4. 
+4. programme of work leading to a pilot embedded randomised controlled trial using a novel _nudge_ design also built to scale across multiple NHS sites (**REMAP-Nudge**)
+
+
+leverage our local experience of interoperability 
+will be designed to scale across multiple sites 
+
+ 
+ We divide the programme into 3 work packages (WP):
+
+WP1:
+- **creates a 'peri-operative arm'** on the established Critical Care Health Informatics Collaborative (CCHIC) programme that already holds data on 45000+ adminssions from 10+ NHS ICUs and 
+- **extends the data specification for CCHIC to include fields from RCoA SNAP-2/EpiCCS**[@moonesinghe2017] knowing that this has been successfully used at 245 NHS hospitals
+- expands the CCHIC cohort to capture **major inpatient surgery** at participating sites
+- captures **variation in practice** via a pseudonymised identifier for the clinical decision maker (prescriber) for drugs and interventions 
+
+WP2:
+
+
+
+- udit to 
+
+- snap national audit experience, data and design (SNAP-2: Moonesinghe, SR, DJN Wong, L Farmer, R Shawyer, PS Myles, **SK Harris**, ‘SNAP-2 EPICCS: the second Sprint National Anaesthesia Project-EPIdemiology of Critical Care after Surgery: protocol for an international observational cohort study.’, BMJ Open vol. 7, no. 9, 2017, pp. e017690.)
+
+
+- - Leverage CC-HIC and add a 'peri-op' arm
+- **expand to all inpatient surgery**; equivalent to approx 4000 cases per trust per year (1 million cases per year across the NHS); difficult to do this beyond UCLH with this budget but would aim to find additional money to scale
+- **leverage existing snap national audit experience**, data and design (SNAP-2: Moonesinghe, SR, DJN Wong, L Farmer, R Shawyer, PS Myles, **SK Harris**, ‘SNAP-2 EPICCS: the second Sprint National Anaesthesia Project-EPIdemiology of Critical Care after Surgery: protocol for an international observational cohort study.’, BMJ Open vol. 7, no. 9, 2017, pp. e017690.)
+- argue that this creates the framework for a unique scalable international resource for studying surgical outcomes
+- Iterate on the REMAP methodology (Randomised Embedded Multi-factorial Adaptive Platform Trials; Angus, DC, ‘Fusing Randomized Trials With Big Data: The Key to Self-learning Health Care Systems’, JAMA vol. 314, no. 8, 2015, pp. 767-768.) but for 'small beans/marginal gains' stuff with a heavy emphasis on using EHR phenome to investigate and exploit treatment heterogeneity 
+- select routine treatments decisions with significant variabilty and clinical equipoise
+- embedded nudged rather than mandated randomisation
+	- where clinician complies with nudge then use instrumental variable analysis to get at the causal effect
+	- where the clinicians refuse to comply then define the phenome of the subgroup
+
+a proof of principle embedded, adaptive learning clinical trial system for high risk surgery. 
+We will build on two existing programmes. Firstly, the established Critical Care Health Informatics Collaborative (CCHIC) programme that holds data on 45000+ adminssions from 10+ NHS ICUs. The existing governance and data flows create an opportunity to leverage the RCOA/BOC grant to scale across multiple sites. Secondly, the Experimental Medicine Application Platform (EMAP) at UCLH where we have a proven track record of deploying novel applications in realtime against the hospital wide Electronic Health Record (EHR).
+
+### Background
+{>>RCTs are slow and expensive and observational data is biased<<}
+Randomised controlled trials (RCTs) are the gold standard for delivering clinical evidence. However, they are slow, cumbersome, and expensive. Moreover they deliver results that are true on _average_ but not adapted for the individual. Personalised medicine recognises that variations in genotype and phenotype require treatments to be appropriately adapted. With unlimited sample size, such evidence could be generated but the cost would be prohibitive. Machine learning (ML) offers to use 'big data' to derive endotypes[@ref] but without a randomisation step they remain vulnerable to bias through unmeasured confounding.
+{>>REMAP trials solve some of these problems but are still too expensive for most questions<<}
+Parallel two arm (A vs B) trials are now being replaced with intelligent designs such as REMAP (Randomised Embedded Multifactorial Adaptive Platform) trials.[@angus] This automates data collection by **e**mbedding the trial in electronic health record (EHR). It **a**dapts the randomisation algorithm so that as a signal for benefit or harm emerges patients are preferentially allocated to the best strategy. And finally, **m**ultiple treatments (factors) are evaluated together using the same **p**latform so the cost of setting the trial up is shared. REMAP-CAP is the first attempt at this approach evaluating antibiotics, anti-virals and steroids for Community Acquired Pneumonia (CAP).
+Nonetheless, this is still a hugely expensive international collaboration recruiting initally 2800 patients across 50 sites over several years.[@ref] The final result from REMAP-CAP will true _on average_ but cannot provide the right answer for the each patient who may have an allergy to the 'best' antibiotic, or be more susceptible to the immune suppression induced by the steroids. 
+
+Inevitably, some treatments will be more effective for some patients than others due to differences in genetic make-up or disease stage.[@iwashyna2015a] Herein lies the skill of the clinician. To take the average answer and decide if it applies to the particular siutation. But while there is shared expertise, each clinician's personal experience creates variation. 
+We normally see such variation as a problem. Guidelines, protocols and audit work to reduce variation and bring in outliers. But again, reducing variation and standardising care can't always improve quality. Sometimes the deviating from a guideline is the right choice.
+What if we could have the best of both worlds?
+What if we could provide a learning decision support approach such that we reduced unwarranted variation, but learned from _justified_ variation. This would require data collection at scale, an intelligent electronic health record, and a novel methodological and ethical approach. We argue that this is not just theoretically possible, but practically realisable. We propose an iteration of REMAP which we call _REMAP-Nudge_.
+Yet hundreds of millions of decisions are made every day by doctors, nurses and allied health professionals. The vast majority of these decisions are so small and routine that we don't always notice them: do we give paracetamol for a fever? do we turn the oxygen down a little; do we stop the antibiotics this morning or this afternoon? However, it is inevitable that the aggregate effect of all these decisions is important. 
+
+
+### Proposal
+I propose **REMAP-Nudge**, an iteration of a modern clinical trial design, that exploits existing variation in routine clinical practice to deliver unbiased personalised treatment recommendations. 
+
+
+tasks.todo
+- add in a section on simulation
+
+
+
+ 
+I propose an iteration of modern clinical trial design that could solve this problem.
+
+
+
+ estimates unbiased personalised treatment recomme
+
+REMAP trials are an attempt to mitigate these problems. 
+
+ 
+
+
+Evidence for these adaptions not normally available be
+
+
+ identifying 
+ for identifying the 
+ unbiased ide
+delivering unbiased evidence of 
+Variation in clinical practice is normally seen as 
+
+
+- Variation is not bad / personalised medicine contradicts standardisation
+- learning health care system: oft used phrase that captures the idea of feedback but does not normally tackle bias and never approaches addresses the problems that led to the development of RCTs; typically just used to manage quality and reduce variation
+- REMAP as an answer to problems with scalability of RCTs
+
+Combine these two and use an established analytical methodology to extract unbiased causal effects ...
+
+### Project
+
+#### Work package 1: CCHIC-periop
+#### Work package 2: Qualitative evaluation of REMAP-Nudge
+#### Work package 3: Proof of principle pilot trial
+
+### Deliverables
+
+
+We will develop and deploy a novel nudge-randomisation approach to clinical trials in high risk peri-operative surgery. The end goal is to prove that a learning health care system is a realisable today.
+
+
+
+
+This exploits the 'big data' embedded in the EHR to capture a rich description of patients  at scale. 
+
+The deliverables of the grant will include
+- CCHIC-periop: an high quality open source database of inpatient surgery that will aim to become the premier international resource for observational studies of high risk surgery and peri-operative medicine
+- Evidence from pilot studies that support scaling nudge
+- Technology to deliver nudge
+
+ that allows deployment of novel applications against the hospital wide 
+ realtime interaction with the hospital wide Elec 
+
+The funding will be leveraged during the programme to scale to other sites already participating in the Critical Care Health Informatics Collaborative. 
+
+
+This 4 year programme will establish an embedded, learning trial system.
+- single centre, need to start the conversation
+- need a hospital with an EHR
+- need a hospital that has shown a commitment to data science
+- need the right environment
+    - Ramani et al
+    - HDR-UK and Harry
+    - UCLH and GOSH and Drive
+    - CCHIC for perioperative medicine but with embedded learning process
+
+Develop and test a methodology / approach that can be replicated elsewhere
+Make anaesthesia/perioperative medicine/critical care the pre-eminent programme for modern embedded learning health care systems
+Focus on anaesthesia as a speciality where the programme results can be rolled out using the networks; think about building collaborations with other EHR +ve sites (e.g. Marsden)
+Networks would work as follows
+- individual hospitals take current best practice and tune it to their local population but always learning
+- manage and organise data so that can be shared
+- by necessity need to focus on short term process measures for local tuning
+- but by sharing data in larger networks then can also test mortality and other crucial endpoints
+
+Letters of support from
+- Bryan Williams?
+- Cecilia/Susan Michie et al
+
+## Practically what are you actually going to do
+
+Focus on the pre-assessment clinic as an opportunity to start a conversation about consent; start with pre-emptive consent but work over the period to an assumed consent/opt-out model
+
+## What will the money be spent on
+
+- seed funding: leverage this? can I get Bryan to agree to support with matched funding?
+- EHR implementation
+- methodology design
+- ethical and patient centred research
+
+## Exemplar questions
+
+- optimal oxygen dose 
+- fluid management
+- depth of anaesthesia
+- perioperative fever response (paracetamol, antibiotic duration etc)
+- etc.
+
+# Document layout
+
+- take the reader through a short history of scientific learning
+- end with REMAP design
+- explain current variaton in practice: use Cummings quote from reviewers
+- marginal gains: but there is no way to exploit or learn these with a standard trial methdology
+
+# Matt's document
+Running notes
+
+## Variability in health care
+
+normally considered a harm; something to standardise
+but counterpoint is personalised medicine
+where we would expect our care to be modified and adapted
+n the case of the first example, variation becomes a marker of the quality of care delivered and is the subject of audit and quality improvement study.  In the case of a lack of evidence, the presence of equipoise forces the clinician into a treatment decision, based on a combination of existing knowledge and experience.  Here, the lack of clear evidence to guide routine decisions leads to inevitable variation in practice @kheterpal2012.
+
+Matt does a nice summary of examples of literature that show existing variation in practice
+- centre TBI x-devonthink-item://1DF71F58-83FD-48B5-8796-DA49E0C43335?line=275
+- list x-devonthink-item://1DF71F58-83FD-48B5-8796-DA49E0C43335?line=269
+
+## standard approaches to learning blunt
+by this i mean that RCTs are too large and too cumbersome to deliver scientific causal knowledge
+well recognised and we are seeing an evolution in their design
+summarise this
+- platform trials
+- embedded trials
+- adaptive trials
+
+comment on REMAP-CAP
+https://clinicaltrials.gov/ct2/show/NCT02735707
+
+
+trials.todo
+- find name of european pneumonia platform trial @done
+
+
+## non-randomised studies
+risks of bias will never be eliminated
+we must remember that most machine learning approaches have the same limitations and that the excitement around big data _does_ not have an answer for this
+
+but big data and electronic health records do provide the embedded part of the story
+- cheap data collection
+- wide and rich data not just limited to that which was pre-specified
+- ... and the opportunity to build in feedback loops 
+
+
+## Nudge learning
+{>>NudgeR: as in NudgeRandom<<}
+combining the two: randomised studies embedded in EHR that exploit natural variation in practice
+
+.todo
+- explain via paracetamol vignette
+- be super clear this is not for investigational therapies; this is around tuning and optimising care: marginal gains
+- explain that we are nudging not mandating 
+	- this creates two learning opportunities
+	- this provides safety since the clinician remains ultimately 'in charge' 
+	- distinct from the usual behavioural economics use of the term: we are nudging the clinician but we are randomly choosing the direction of the nudge
+
+Allow learning to scale because it can be _safely_ expanded across the whole hospital since the per patient cost should be minimal
+Learn from recruitment and non-recruitment events
+Learn and can also suggest how to improve guideline compliance
+
+
+## scale of the learning system
+- single hospital
+	- still useful
+- multi-site
+	- for major endpoints; in collaboration
+
+## Requirements
+
+NudgeR system requirements
+
+- EHR enabled hospital
+- EMAP (data science backend) because 
+	- you need to manage the randomisation and adaption in realtime
+	- you need to manage the monitoring in realtime
+	- you need to be able to study unintended consequences and therefore need a well encoded electronic health record that will permit monitoring of other topics that werern't planned but are well recorded in the EHR
+	- you need a big surgical and perioperative clinical programmme
+	- you need a good multi-disciplinary research team
+		- ethics 
+		- ppi
+		- behavioural science
+		- methodology
+NudgeR intervention requirements
+
+- common
+- existing variation documented
+- potential for either 
+	- saving money
+	- improving outcomes for all
+	- defining treatment heterogeneity (i.e. identifying subgroups for specific benefit)
+- clear surrogate endpoint for monitoring
+- monitoring can be performed safely in near realtime
+- inclusion/exclusion criteria are captured by EHR
+## Programme of work
+
+{>>can you sell this to the RCOA as their chance to build a <<}

@@ -1,0 +1,13 @@
+Dear XXX
+
+I am writing to offer my full support of Dr Steve Harris's application for the British Oxygen Company's Chair of Anaesthesia Research Grant.
+
+Dr Harris is a clinical academic rapidly building a strong research group with us at the Insitute of Health Informatics. He is the recipient of personal fellowships from the Wellcome Trust, and the Health Foundation, and a former NIHR Clinical Lecturer. He has a track record using observational research to tackle topics that are not amenable to the standard randomised controlled trial.
+
+In the last 3 years, he has won more than £2 million pounds of grant funding. He has been the technical lead for the Critical Care Health Informatics Collaborative (CCHIC) programme that has built the first fully linkable multi-site research database for critical care in the world. Most importantly, he has led the development of the Experimental Medicine Application Platform (EMAP) at University College Hospital London (UCLH). EMAP is a realtime data science platform built inside the NHS that transforms the analytic capability of the hospital. As Director of Health Data Research UK (London), I believe that EMAP is trail blazing a path to translational health data science.
+
+This grant proposal brilliantly leverages the local implementation of the electronic health record at UCLH, and the EMAP platform. I cannot think of another institution so close to being able to deliver an embedded, point of care randomised trial. And I cannot think of a topic that can better demonstrate how health data research can start to improve the lives of patients. I would also highlight three other strengths of the programme here: (1) the local investment in patient and public involvement that we have already established, and will be key to this work; (2) the collaboration with Professor Ramani Moonesinghe who brings experience and a network of support from peri-operative medicine; and (3) the network that Dr Harris has established through the CCHIC that would mean that this technology can be built to scale nationally.
+
+The Intitute of Health Informatics has a staff of XXX, and an income of more than YYY. In the REF, ZZ% of our research was rated as world leading or internationally excellent. We deliver the largest health informatics training programme in the UK (>160 postgraduate students), and host the new UCL Centre for Doctoral Training in AI-enabled Healthcare systems. We are the perfect host for this work.
+
+This application has therefore my strongest support. I believe that Dr Harris is on track to becoming a key part of the senior leadership of the IHI. This programme will establish both this institution and the specialty of peri-opeative medicine as leaders in translational data science.
