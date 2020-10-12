@@ -45,3 +45,4 @@ Final programme deliverables include:
 
 ### Conclusion
 By nudging rather than mandating randomisation and operating within existing clinical norms, we create a trial paradigm that scales efficiently. We generate the sample size to study the varying response to different treatments and deliver a personalised treatment strategy that steadily optimises those millions of small decisions. Ultimately, scaling the trial across multiple sites will deliver a world-first: a true learning health care system for peri-operative medicine that optimises processes and pathways of care not normally amenable to standard parallel arm randomised controlled trials (RCTs).
+
