@@ -13,6 +13,12 @@ csl: science-without-titles.csl
 - [ ] TODO @idea can you use a regression discontinuity approach for the threshold investigation for respiratory support
 
 # Title
+Embedded Randomised
+Nudge-learning and Decision Support
+Adaptive
+Learning Adaptively from Embedded Random Nudges or Decision Support (LEARNDS)
+ERNLDS
+
 REMAP-nudge: leveraging the Critical Care Health Informatics Collaborative to build a learning health care system for peri-operative medicine
 
 - [ ] TODO change the title; talk about eliciting equipoise at scale through a more subtle approach
@@ -21,26 +27,36 @@ REMAP-nudge: leveraging the Critical Care Health Informatics Collaborative to bu
 
 1. **Randomised controlled trial are expensive and unable to be deployed to answer the range of questions that most clinicians encounter**
 
-There is near universal agreement that the gold standard for evidence generation in clinical medicine is the randomised controlled trial (RCT). However, RCTs suffer from a series of well rehearsed problems related to cost and efficiency. This limits their scope and their generalisability, and also means that we are only afforded the chance to ask a small number of questions, often in series and often over a period of many years. The cost and inefficiency of an RCT means that these questions have to be broad, and the answers are only true on average. They deliver recommendations that are sound at the level of the population but are not always appropriate for the individual. We are clear that medicine should be personalised but in their current format, RCTs are unable to meet this challenge. 
+There is near universal agreement that the gold standard for evidence generation in clinical medicine is the randomised controlled trial (RCT). However, RCTs suffer from a series of well rehearsed problems related to cost and efficiency. This limits their scope and generalisability. The cost in time and resource is such that we are afforded the chance to ask only a small number of questions, and often over a period of many years. The consequence is that these questions have to be broad, and resulting answers whilst true on average cannot be personalised or specific.  
 Part of the response to these problems has been to develop strategies that minimise the cost of RCTs by __embedding__ them in existing data collection structures such as audit programmes or electronic health record systems (EHRS). Better still the trials are not seen as one-off events focused on evaluation of a single treatment, but are instead seen as a __platform__ for the investigation of a single disease. As a treatment is shown to be less effective than its comparator, that treatment is replaced with a new proposed replacement. Over time, better and better treatments are identified without incurring the delays and set-up costs of a series of separate studies.
 
 - [ ] TODO find some quotes / estimates to support these statements of cost
 
 2. **Learning health care systems implemented without randomisation risk bias**
 
-Learning health care systems "... integrate the practice of medicine and the generation of reliable medical evidence in a way that will promote both continuous learning and evidence based medical practice."[@london2018] Usually a learning health care system stops short of using RCTs as a methodology. Instead, they depend on cycles of observation and intervention: a version of quality improvement's Plan-Do-Study-Act (PDSA) cycle. The interventions are not novel experimental therapies but recommendations of best practice drawn from multiples sources that might include RCTs but would also permit expert opinion, and consensus recommendations. A panel of performance indicators is tracked, and as each intervention is implemented, these are used to evaluate its impact and justify modifications, adjustments or new interventions.
-These PDSA style cycles cannot meet the standards of objectivity that an RCT can offer. There are prone to the same types of bias observational research must overcome.
+Learning health care systems "... integrate the practice of medicine and the generation of reliable medical evidence in a way that will promote both continuous learning and evidence based medical practice."[@london2018] Usually a learning health care system stops short of using RCTs as a methodology. Instead, they depend on cycles of observation and intervention: a version of quality improvement's Plan-Do-Study-Act (PDSA) cycle. The interventions are not novel experimental therapies but recommendations from existing practice supported by expert opinion, guidelines and consensus recommendations some but not all of which may be based on RCT evidence.
+Typically a panel of performance indicators is devised and tracked. As each intervention is implemented, these indicators are used to evaluate its impact and justify modifications, adjustments or new interventions. Inevitably, these PDSA style cycles cannot meet the standards of objectivity that an RCT can offer. There are prone to the same types of bias observational research must overcome.
 
 3. **Randomised controlled trials are not well adapted for non-binary questions**
 
-The classic RCT compares one drug against another. However many questions in medicine are non-binary, and the RCT implementation often loses subtlety. This in turn means clinicians lose equipoise. Consider as an example the ARDSNet study of high versus low tidal volume ventilation, arguably the most famous trial of in critical care.[@ref] This reported that mortality was lower for mechanically ventilated patients if the tidal volume was 6ml/kg rather than 12ml/kg. Critics have often pointed out that the tidal volumes in the  'high' group was excessive.[@laffey2000] But more fundamentally, the trial is structurally unable to define the 'optimum' tidal volume (even on average). For that, we would need a multi-arm trial with patients assigned tidal volume targets from below 6ml/kg up to 12ml/kg. 
-A similar critique can be made of strategies that evaluate fluid balance, the optimum blood pressure, oxygen targets, or the timing of interventions. All of these are decisions that rest on a 'fine balance' of clinical judgement. We can construct binary choices but clinicians will often find that these are too simplistic, and they no longer have equipoise for that patient.
-Imagine recreating the ARDSNet study today. Perhaps we would randomise to 4ml/kg vs 8ml/kg this time. The 4ml/kg strategy would be considered too low by some as it risks poor CO2 clearance and respiratory acidosis. The 8ml/kg strategy might be too high for others who are convinced that 'lower' is better. It is is easy to see how this would lead to poor trial recruitment, but it would be wrong to assume that the clinician who refused to enroll a patient was certain in his or her knowledge of the _right_ tidal volume.
+A Phase 3 trial comparing a new drug to a placebo is well suited to an RCT. However many questions in medicine are non-binary, and the RCT implementation often loses subtlety.  
+This in turn means clinicians lose equipoise. 
+Consider, as an example, the ARDSNet study of high versus low tidal volume ventilation, arguably the most famous trial of in critical care.[@ref] This reported that mortality was lower for mechanically ventilated patients if the tidal volume was 6ml/kg rather than 12ml/kg. Critics have often pointed out that the tidal volumes in the 'high' group was excessive.[@laffey2000] But more fundamentally, the trial is structurally unable to define the 'optimum' tidal volume (even on average). For that, we would need a multi-arm trial with patients assigned tidal volume targets ranging from below 6ml/kg up to 12ml/kg (i.e. 4ml/kg, 5ml/kg, 6ml/kg, 7ml/kg ...). Forcing a binary choice has further consequences. The bedside clinicians will often find that they the dichotomy is too stretched for their patient. In other words, they loose equipoise because one or more of the arms is too far from their own judgement (e.g. 6 versus 12 ml/kg). Without equipoise, the clinician cannot with conscience enrol the patient.
+A similar critique can be made of strategies that evaluate antibiotic duration, fluid balance, the optimum blood pressure, oxygen targets, or the timing of interventions. All of these are decisions that rest on a 'fine balance' of clinical judgement. 
 
-4. **Variation in practice**
+3. **Variation in practice implies clinical equipoise and treatment heterogeneity** 	
 
-4. **Respiratory support for COVID-19 pneumonia**
+> equipoise[^a]: ... honest, professional disagreement among expert clinicians about the relative clinical merits of interventions A and B for a particular patient population[@london2018] 
 
+Variation in practice is more often associated with poor quality care. One critical summary describes variation as the '60-30-10' problem wherein 60% of care conforms to best practice, 30% is ineffective or wasteful, and 10% is harmful.[@Braithwaite]. But even if we eradicate the harm and reducing the waste, there should still be variation. Where clinicians vary care based on a nuanced interpretation of the best available evidence, this is in line with the founding principles of Evidence Based Medicine (EBM).[Greenhalgh 2014] The evidence is after all only the average truth, and it is the clinician's job to recognise treatment heterogeneity and adapt to the circumstances of the individual patient. 
+
+- > treatment homogeneity versus heterogeneity[@longford1999]:
+> - homogeneity: treatment B is superior to treatment A for (almost) everybody in the designated population; 
+> - heterogeneity: treatment B is superior to treatment A for an average or typical subject in the designated population. *B may be inferior for a non-trivial proportion of subjects*.
+
+6. **Respiratory support for COVID-19 pneumonia**
+
+There are a lot of unanswered questions, and even with the energy currently being diverted toward COVID-19, existing methodological approaches can only hope to offer broad recommendations.
 
 Many questions in medicine are not binary. Even those questions that are translated into an RCT paradigm of Drug A vs Drug B
 
