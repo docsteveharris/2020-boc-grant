@@ -1,3 +1,8 @@
+500 words
+Autumn 2020 (COVID version)
+
+Spring 2020 (BC)
+
 **Hundreds of millions of health care decisions** are made every day. Most decisions are so routine that we don't always notice them: do we give paracetamol for a fever? do we deliver oxygen to a target of 94% or 98%? do we stop the antibiotics this morning or this afternoon? It is inconveivable that the aggregate effect of all these decisions is unimportant. 
 Randomised controlled trials (RCTs) are our 'go to' method for studying a single decision. But **traditional RCTs are slow, expensive and cumbersome**. Moreover, they deliver results that are true on _average_ but not adapted for the individual. Personalised medicine recognises that variations in genetics and our current health require adaptations of standard treatments. With enormous sample sizes, RCTs could generate such evidence but the cost would be prohibitive. 
 Embedding the trial in the electronic health record (EHR) automates data collection and reduces cost. Complete point of care randomisation would remove the majority of the remaining cost but only if presumed consent is possible. This depends on designing a vehicle to deliver experimental randomisation safely as part of routine care. 

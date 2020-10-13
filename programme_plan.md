@@ -10,6 +10,8 @@ bibliography: references.bib
 csl: science-without-titles.csl
 ---
 {>>Target 5000 words<<}
+{>>Autumn 2020 (COVID version)<<}
+{>>Spring 2020 (BC) <<}
 
 # Title
 

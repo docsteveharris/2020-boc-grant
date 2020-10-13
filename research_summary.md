@@ -8,6 +8,68 @@ author: Steve Harris
 bibliography: references.bib
 csl: science-without-titles.csl
 ---
+800 words
+Autumn 2020 (COVID version)
+
+This is the second time this proposal has been submitted. The first was focused on adapting randomised controlled trials using the advantages of electronic health records and causal inference techniques to optimise learning for peri-operative medicine. That was in January 2020. Just 9 months later, it is inconceivable that we anyone could have realistically predicted the upheavals the world and our healthcare systems have since experienced.
+However, the premise of the original proposal has not changed. We still believe that RCTs are unable to deliver the answers we need to the breadth of questions we face. The difference now is that we have a new disease as the focus of our enquiry.
+
+We build our case on the following arguments.
+
+The limits of randomised controlled trials:
+1. We acknowledge the RCTs as the gold standard tool for generating clinical evidence.
+2. However, they are expensive, and even with a pandemic the rate of evidence generation is frustratingly slow. More importantly, the results of an RCT are only true on _average_. To unpick such heterogeneity of treatment effects (HTE) and deliver personalised recommendations even larger sample sizes are required. 
+3. Such sample sizes are unfeasible. Some progress can be made by embedding the trials in EHR systems to minimise the burden of data collection, but this will never be sufficient.
+4. Where the target intervention is a novel therapy then RCTs cannot be replaced. However, where the target intervention is a modification of routine care, then existing variation in practice creates an opportunity to implement a 'learning health care system'.
+
+Variation in routine practice is common, and presents a learning opportunity:
+1. Variation in practice is evidence of clinical equipoise: "honest, professional disagreement among expert clinicians" about the best treatment strategy.[@london2018@410]
+2. Existing retrospective designs known as physician prescribing preference (PPP) studies exploit this variation to make causal statements about treatments. They assume that there was a degree of random chance that led to a patient's encounter with a specific doctor. The hospital you attend depends on whether you are at work or at home when you fall ill. The doctor you meet depends on their shift pattern and holidays etc. Where that doctor exhibits some preference for a treatment decision (e.g. a choice of drug, a recommendation for a procedure, an approach to investigations etc.), then there is randomness in the allocation of treatments that can be exploited. The 'coin toss of a formal RCT' is replaced with the random circumstances that exposed that patient to that doctor's preference.
+
+{{>>
+2nd strand to the nudge: RCTs need clear treatment separation; nudge allows us to find each individuals zone of equipoise
+Maybe start making the case by asking the reader to consider the concept of equipoise; then talk about equipoise as a continuum; and for a trial there is the idea that you ask clinicians to give up their own individual equipoise and submit to the group uncertainty; this causes ethical issues at the bedside and is a common reason for poor recruitment
+<<}}
+
+
+
+I propose to merge these two strands of argument. We will modify existing clinical decision support tools to develop and implement a randomised trial that reproduces this routine variation in practice. The deliberate implementation will allow learning at scale. The scale will allow us to explore the treatment heterogeneity that is the achilles heel of the classic RCT. And the insights into treatment heterogeneity will  enable us to deliver targeted and personalised medicine for the benefit of our patients.
+
+
+without resting on the assumptions of
+ such that we can learn
+
+
+
+ in 
+
+recreates this variation
+I believe that we can do this efficiently by embedding the programme within the EHR.
+I believe that we can do this ethically by building a programme of public engagement ...
+ and prospectively embed clinical trials that aim to optimise the elements of routine care
+
+I propose a modification of the RCTthat we use a nudged rather than a mandated treatment allocation t
+
+
+
+
+
+## Proposal
+**REMAP** (**Randomised Embedded Multifactorial Adaptive Platform**) trials provide a partial solution by embedding the RCT in the Electronic Health Record (EHR) and reducing the cost of data collection.[@angus2015] However, point of care recruitment and consent remains expensive. 
+I propose a modification of REMAP using **nudge theory** that allows randomisation and recruitment using pre-emptive or presumed consent.[@thaler2009] This practical alternative exploits existing variation in practice to deliver 
+3. For example, 
+
+2. Treatment allocation is nudged not mandated. The nudge is delivered using clincial decision support (CDS) tool within the EHR with one of three effects:
+
+1. Where evidence already exists, the trial alerts the clinician and reduces unwarranted variation.
+2. Where evidence is lacking and the clinician _overrules_ the nudge based on their expert knowledge, the trial learns the specific patient characteristics that led to that decision.
+3. Where evidence is lacking and the clinician _complies_ with the nudge,  the trial recruits without further cost.
+
+
+
+
+Spring 2020 (BC)
+
 
 # Research Summary
 
