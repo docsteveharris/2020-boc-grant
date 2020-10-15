@@ -25,12 +25,3 @@ List similar situations - duration of
 - timing of tracheostomy
 
 
-## Work package 1: PPI programme and ethics
-- [ ] TODO letter of support from Bryan et al
-involve Reecha and Natalie Fitzpatrick and the aboutme programmes
-
-## Work package 1: Extending CCHIC
-Making CCHIC fit for purpose
-
-## Work package 2: Physician prescribing preference
-## Work package 3: Nudged randomisation
