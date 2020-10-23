@@ -38,7 +38,7 @@ These complex data types have been the target of the initial modelling effort by
 - [ ] TODO CHIMERA collaboration?
 
 3. **We will report on long term outcomes for COVID-19 pneumonia using data linkage from CCHIC to ONS**
-The unique strengths of CCHIC is that we have the infrastructure to link to NHS-Digital and the Office of National Statistics. We will use this to capture in the first instance long term mortality. Existing resources such as ICNARC  and DECOVID report hospital mortality only. We will also make available the data linkage to Hospital Episode Statistics such that long term health care resource utilisation can be studied.
+The unique strengths of CCHIC is that we have the infrastructure to link to NHS-Digital and the Office of National Statistics. We will use this to capture in the first instance long term mortality. Existing resources such as ICNARC and DECOVID report hospital mortality only. We will also make available the data linkage to Hospital Episode Statistics such that long term health care resource utilisation can be studied.
 
 4. **We will add metadata to all drugs, orders, and treatment decisions to capture a patterns of clinician behaviour**
 We will also update the ethics arrangements for CCHIC to capture a pseudonymised identifier for the clinical decision maker. The identifier will be created using a one-way hash as want to protect the individual clinician from being re-identified yet reliably track their behaviour, approach and decisions.  We will label all drugs, orders, and treatment decisions with the clinician's identifier in preparation for the physician-prescribing preference studies (see WP3).[@rassen2009c] 
@@ -50,7 +50,10 @@ We will also update the ethics arrangements for CCHIC to capture a pseudonymised
 
 - [ ] TODO prepare proof that clinicians have local levels of doubt (you may need to do the PPP bit first) and then decide whether you think about the randomisation at the centre level or at the individual level
 - [ ] TODO letter of support from Bryan et al
-involve Reecha and Natalie Fitzpatrick and the aboutme programmes
+involve Reecha and Natalie Fitzpatrick and the AboutMe programmes
+
+- [ ] TODO think about quality of care and improving that quality be working on the basics well (tidal volume, sedation etc. all the things that we have learned over the last 20-30 years of ICU)
+- [ ] examine whether the variation in practice is associated with the variation in outcomes; model this behaviour; think of this explanatory variable at the unit level? compare to non-COVID respiratory failure work; this should be an analysis and an output too
 
 We have prepared a worked example but it should be noted that in the actual project, the intervention to be tested will be developed and selected via a joint clinician/patient/public programme, and not investigator driven. This is especially important given that we will be moving to a presumed consent/assent model that we will depend on the clinical workforce to engage with the **nudge-learning** approach. Hence the actual question to be studied may vary. 
 
@@ -81,7 +84,7 @@ Define the targets that you need to capture the data
 
 ## Work package 5: Pilot nudge-learning trial
 WP5 
-Pilot nudge implementation (low tech)
+Pilot nudge implementation (low tech): how could this be scaled; could it work in non digitally mature centres
 NCL network
 RECOVERY style reporting
 
