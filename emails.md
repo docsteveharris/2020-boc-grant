@@ -1,3 +1,56 @@
+## 2020-10-13 updated for this round
+
+Dear Folkert/Harry/Merv
+
+You'll remember helping me out with a Fellowship application for at the beginning of the year. The applications were put on hold and then cancelled because of COVID. They've now been re-advertised but with a request to orient toward COVID-19 related work. The original proposal used peri-operative medicine as its theme but was mainly methodological in that it focused on implementing the nudge learning ideas I've mentioned. 
+
+I thought that I would therefore re-apply with the same methodological idea but focus on the timing of respiratory support in COVID-19. I think this works well. The main ICU trial launched during 'surge 1' compares modes of respiratory support but I think that question has largely been settled. Most people agree that there is a role for CPAP but the struggle now is when to start and when to stop. Timing questions such as this never fit parallel arm RCTs well. The late group in particular tends to have a lot of protocol violations as people remove the 'improvers' from the study.
+
+More detailed notes are below.
+
+The deadline is October 30. 
+
+I'm writing now to ask if you'd be prepared to support again. That means the usual letters of support, and agreeing to host me here at the IHI if I'm successful.
+
+Please let me know if you think this is possible.
+
+Many thanks
+
+Steve
+
+Background in brief:
+- British Oxygen Company (BOC) Chair of Anaesthesia Fund ... endowment of a research fellowship in a department of Anaesthesia.   to support ... working towards a senior fellowship or developing a credible application for a Chair in Anaesthesia (or related specialties) in the next five years. Applications are welcomed from clinicians and from basic scientists with a similar ambition. See https://www.niaa.org.uk/article.php?newsid=1474
+- **£80k/year for 4 years**; reasonably flexible spend and charitable so I assume this can be leveraged by UCL if I'm successful
+- I'd like to bring together 3 themes
+	- IHI/you/CRIU and adaptive embedded trial design
+	- Critical Care Health Informatics Collaborative (with Merv) 
+    - ?DECOVID
+	- [Ramani Moonesinghe](https://www.ucl.ac.uk/anaesthesia/people/professor-ramani-moonesinghe-frca-mrcp-fficm-mdres) who is friend and collaborator; we've previously worked together on a national trial and this would clearly orient the work to the anaesthesia/periop domain
+
+Proposal in brief:
+- Leverage CC-HIC and add a 'COVID' extension to include inpatients with COVID regardless of critical care status
+- Build a trials pipeline that 
+    - starts with good PPI to define areas of interest that are not amenable to standard RCT approaches
+        that is
+        - optimisation of routine care rather than investigation of novel therapies
+        - where there is existing variation in routine practice
+        - where the choice is on a continuum rather than binary (drug A vs drug B) 
+    - evaluates the question using observational data and physician prescribing preference designs    
+    - implement a variant of the REMAP methodology (Randomised Embedded Multi-factorial Adaptive Platform Trials; Angus, DC, ‘Fusing Randomized Trials With Big Data: The Key to Self-learning Health Care Systems’, JAMA vol. 314, no. 8, 2015, pp. 767-768.)
+
+Previously I'd argued that we'd do this for 'small beans/marginal gains' stuff. We've got a current example being developed by a PhD student co-supervised by Folkert and myself looking at thresholds for supplementing Magnesium in the ICU. However, this time round I'd like to be bolder and tackle what I think is the big question that remains for ICU management of COVID-19: when is it appropriate to use CPAP.
+
+@resume 2020-10-13t23:28:02
+
+with a heavy emphasis on using EHR phenome to investigate and exploit treatment heterogeneity 
+	- select routine treatments decisions with significant variabilty and clinical equipoise
+	- embedded nudged rather than mandated randomisation
+		- where clinician complies with nudge then use instrumental variable analysis to get at the causal effect
+		- where the clinicians refuse to comply then define the phenome of the subgroup
+
+
+## 2020-10-13 original notes from jan
+
 Hi Harry. Excuse the double pronged text and email attack. Am writing a 4-year fellowship grant app at short notice (deadline 31 Jan). Not a lot of £ but good opportunity and only comes round every 4 years. I'd like to base this at IHI and would need your support. Did you have 30mins to discuss? 
 
 Dear Harry

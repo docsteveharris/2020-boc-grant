@@ -48,7 +48,6 @@ I propose building a trial incubator to optimise the management of respiratory f
 I leverage the existing infrastructure of the NIHR Health Informatics programme for Critical Care (CCHIC) that is led out of UCL/UCLH BRC working alongside the DECOVID collaboration (a high quality database COVID-19 co-led by UCLH and University Hospital Birmingham). CCHIC makes routinely collected clinical data at 7 NHS sites available to researchers. DECOVID has already modelled respiratory support in detail.
 We update CCHIC to capture pseudonymised identifiers for the clinical decision maker (prescriber) and build the physician prescribing preference studies: observational correlates of the interventional REMAP-nudge approach.
 
-
 I then build toward a pilot study of REMAP-Nudge. This grant will support development of this programme at a single site (UCLH). However, the architecture will be built to modern interoperability standards so that it is ready for deployment at NHS sites with an EHR. Alternatively, low-fidelity digital implementation such as that effectively deployed by the RECOVERY trial could be implemented.
 
 Final programme deliverables include:

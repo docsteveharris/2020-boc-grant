@@ -62,11 +62,6 @@ Many questions in medicine are not binary. Even those questions that are transla
 
 
 
-COVID-19 respiratory support programme
-Introduce the problem using recovery-rs
-Draw parallels with many other unanswered questions esp those around timing
-
-
 # Aim and objective (aka hypothesis)
 
 > When there is genuine equipoise between two commonly used treatments, _not_ doing a point of care trial to find out which has a better risk/benefit profile seems _unethical_. Pragmatic RCTs could enable clinically important questions that can be answered fast based on studies carried out in routine care settings on a full range of participants.
