@@ -1,3 +1,15 @@
+
+# 2020-10-23t15:16:20 simple notes whilst re-writing programme plan implementation
+
+- A process not a question
+- more variation than usual in covid cases
+- more questions
+- greater need to have a methodology that could rapidly provide answers for future pandemics and crisises (see STARRS)
+- modify consent approach
+- add in a simulation work package
+- localised responses: relevant to your centre: then use MLM etc and Bayes to interpret more widely; at the very least a community bottom up local implementation of REMAP-CAP where sites collaborate on questions bottom up rather than top down
+
+# 2020-10-23t15:15:59 logged
 ## Narrative summary
 
 **Hundreds of millions of decisions** are made every day by doctors, nurses and allied health professionals. Most decisions are so small and routine that we don't always notice them: do we give paracetamol for a fever? do we target an oxygen saturation of 94% or 98%; do we stop the antibiotics this morning or this afternoon? But it is inconveivable that the aggregate effect of all these decisions is not important.
