@@ -3,23 +3,22 @@ title: research summary
 export_on_save:
     pandoc: true
 output: word_document
-date: 2020-01-31
+date: 2020-10-26
 author: Steve Harris
 bibliography: references.bib
 csl: science-without-titles.csl
 ---
-800 words
-Autumn 2020 (COVID version)
 
-# Research Summary
+# Research Summary: PreMEDS(R)
 
 ## Problem statement
+
 > The best mechanism to generate generalizable estimates of treatment effect (ie, broader answers) and understand heterogeneity of treatment effect (ie, narrower answers) is to have extremely broad enrolment, ideally representative of the entire breadth of a disease or condition.[@angus2015]
 > Derek Angus, JAMA, 2015
 
-Randomised controlled trials (RCTs) are the gold standard for delivering clinical evidence but 'broad enrolment' is near impossible. This is both due to cost, and because their structure imposes a false dichotomy on what are often finely judged clinical decisions. They work well for binary comparisons (e.g. Phase 3 trials), but only offer broad guidance on questions of timing and dose. RCT results are true only on _average_, and if we wish to move toward personalised medicine, to unpick heterogeneity of treatment effects (HTE), and to optimise questions of timing and dose, then we need a new structure that does not forgo the benefits of randomisation.
+Randomised controlled trials (RCTs) are the gold standard for delivering clinical evidence but 'broad enrolment' is near impossible. This is both due to cost, and because their structure imposes a false dichotomy on what are often finely judged clinical decisions. They work well for binary comparisons (e.g. Phase 3 trials), but only offer broad guidance because their results are true only on _average_. If we wish to move toward personalised medicine, to optimise the many small decisions that define a pathway of care, to unpick heterogeneity of treatment effects (HTE), then we need a new structure that does not forgo the benefits of randomisation.
 
-**REMAP** (**Randomised Embedded Multifactorial Adaptive Platform**) trials provide a partial solution to efficiency and cost by embedding the RCT in the Electronic Health Record (EHR) and efficiently using the sample by adaptively randomising.[@angus2015] However, point of care recruitment and consent remains expensive, and multi-arm trials cannot approach the subtlety needed for personalised medicine.
+**REMAP** (**Randomised Embedded Multifactorial Adaptive Platform**) trials provide a partial solution by embedding the RCT in the Electronic Health Record (EHR) and efficiently using the sample by adaptively randomising.[@angus2015] However, point of care recruitment and consent remains expensive, and even multi-arm trials cannot approach the subtlety needed for personalised medicine.
 
 ## Proposal
 I propose a modification of REMAP using **nudge theory** that allows randomisation and recruitment using pre-emptive or presumed consent.[@thaler2009] This practical alternative exploits existing variation in practice to deliver randomisation safely, efficiently and at scale. Variation in practice is used as evidence of clinical equipoise: "honest, professional disagreement among expert clinicians" about the best treatment strategy.[@london2018@410] Treatment allocation is nudged not mandated. The nudge is delivered using clincial decision support (CDS) tool within the EHR with one of three effects:
@@ -31,20 +30,37 @@ I propose a modification of REMAP using **nudge theory** that allows randomisati
 The decision boundaries in (2) and (3) are flexible: different clinicians will find equipoise at different moments. Because equipoise is internally identified, and  not externally and pre-emptively imposed, we recruit broadly and can evaluate non-binary decisions.  The result is an RCT with imperfect compliance: a prospective implementation of a physician prescribing preference study combined with the ideas that underlie Person-centered Treatment (PeT) effects.[@rassen2009c, @Grieve2019] The health care system reduces unwarranted variation, the clinician provides the best current treatment where evidence exists, and the scientist identifies the best future treatment where evidence is lacking.
 
 ## A worked example: What is the optimum target oxygen saturation?
-The British Thoracic Society (BTS) guidelines recommend an SpO~2~ target of 94-98% in most circumstances[@odriscoll2017], but there is much routine variation.[@post2019] A recent 1000 patient RCT failed to find a benefit from a conservative (low SpO~2~) strategy.[@icu-rox2019] Yet observational studies suggest heterogenous benefit.[@palmer2019a] REMAP-nudge would implement a CDS that nudges for a conservative (SpO~2~ 94%) or liberal (SpO~2~ 98%) target. Targets outside of the BTS range would be nudged in range. Novel subgroups (beyond stroke, myocardial infarct) where expert opinion overruled the nudge would be defined. And if the nudge was followed in just half the cases, REMAP-Nudge would recruit many-fold faster than the largest trial to date (50% of 2,000 ICU admissions/year versus 1000 cases from 21 sites over >2 years).[@icu-rox2019]
+The British Thoracic Society (BTS) guidelines recommend an SpO~2~ target of 94-98% in most circumstances[@odriscoll2017], but there is much routine variation.[@post2019] A recent 1000 patient RCT failed to find a benefit from a conservative (low SpO~2~) strategy.[@icu-rox2019] Yet observational studies suggest treatment effects within subgroups.[@palmer2019a] PreMEDS-R would implement a CDS that nudges for a conservative (SpO~2~ 94%) or liberal (SpO~2~ 98%) target. Targets outside of the BTS range would be nudged in range. Novel subgroups (beyond stroke, myocardial infarct) where expert opinion overruled the nudge would be defined. And if the nudge was followed in just half the cases, PreMEDS-R would recruit many-fold faster than the largest trial to date (50% of 2,000 ICU admissions/year versus 1000 cases from 21 sites over >2 years).[@icu-rox2019]
 
 ## Safe pathways: A trial incubator for REMAP-Nudge 
 Classical parallel arm RCTs remain the right tool for evaluation of investigational therapies. Simple Drug A vs Drug B questions are more efficiently and safely answered in small, tightly controlled studies with mandated treatment arms.
-REMAP-Nudge is designed for optimisation of existing care. Embedded randomisation creates broad enrolment balancing the imperfect compliance of the nudge. Moving from point of care to presumed consent requires a safe environment to pilot the question. Specifically, we propose building a pathway with the following stages 
+PreMEDS-R is designed for optimisation of existing care. Embedded randomisation creates broad enrolment balancing the imperfect compliance of the nudge. Moving from point of care to presumed consent requires a safe environment to pilot the question. Specifically, we propose building a pathway with the following stages 
 
 1. Patients and health care providers partner to identify areas of variation in practice
-2. A retrospective physician prescribing preference study produces an early estimate of treatment effects
+2. Retrospective physician prescribing preference study produces an early estimate of treatment effects
 3. A simplified prospective pilot trial with pre-emptive consent evaluates the efficacy of the nudge and the acceptability of opt-out consent.
 
 Those questions that graduate from this pathway are then deployed with opt-out consent at scale across different institutions embedded within the electronic health record.
 
+## Implementation
+I leverage the existing infrastructure of the NIHR Health Informatics programme for Critical Care (CCHIC) that is led out of UCL/UCLH BRC, and the RCoA/UCL Centre for Perioperative Medicine (CPOM) led SNAP-2 study. CCHIC makes routinely collected clinical data at 7 NHS sites available to researchers. SNAP-2 brings a data set for inpatient surgery successfully implemented at 245 NHS sites. Pseudonymised identifiers for the clinical decision maker (prescriber) are captured to build a pair of physician prescribing preference studies: observational correlates of the interventional PreMEDS-R approach.
+
+I then build toward a pilot study of REMAP-Nudge.
+This grant will support development of this programme at a single site (UCLH). However, the architecture will be built to modern interoperability standards so that it is ready for deployment at NHS sites with an EHR. 
+Building REMAP-Nudge for peri-operative medicine is advantageous because elective surgery patients pass through a pre-assessment clinic permitting _pre-emptive_ consent. Patients and public will be involved (PPI) with the design, and guidance the transition to _presumed_ consent. Whilst I propose two exemplar study questions (SpO~2~ and Magnesium targets post-operatively), this proposal is methodological, and contributing PPI may prioritise other questions.
+
+Final programme deliverables include:
+
+1. A high-quality prospective peri-operative medicine database built to scale across multiple NHS sites
+2. A pair of exemplar physician-prescribing preference studies 
+3. Qualitative and quantitative evidence from a pilot embedded REMAP-Nudge trial with pre-emptive consent to justify moving to an opt-out consent model.
+
+### Conclusion
+By nudging rather than mandating randomisation and operating within existing clinical norms, we create a trial paradigm that scales efficiently. We generate the sample size to study the varying response to different treatments and deliver a personalised treatment strategy that steadily optimises those millions of small decisions. Ultimately, scaling the trial across multiple sites will deliver a world-first: a true learning health care system for peri-operative medicine that optimises processes and pathways of care not normally amenable to standard parallel arm randomised controlled trials (RCTs).
+
 ## Implementation and opportunity
 I propose building a trial incubator to optimise the management of respiratory failure. This has relevance for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), but more enduringly for much of the work that presents to critical care.
+
 I leverage the existing infrastructure of the NIHR Health Informatics programme for Critical Care (CCHIC) that is led out of UCL/UCLH BRC working alongside the DECOVID collaboration (a high quality database COVID-19 co-led by UCLH and University Hospital Birmingham). CCHIC makes routinely collected clinical data at 7 NHS sites available to researchers. DECOVID has already modelled respiratory support in detail.
 We update CCHIC to capture pseudonymised identifiers for the clinical decision maker (prescriber) and build the physician prescribing preference studies: observational correlates of the interventional REMAP-nudge approach.
 
