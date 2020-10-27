@@ -105,3 +105,9 @@ Because prescribing preference is only one of many factors that affects the trea
 This method both demonstrates the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for REMAP-nudge.
 
 - [ ] TODO review Matt's work and see if you can include this as a 'worked example' (with figures etc.)
+
+## Work Package 3: Incubator
+
+- ppi step
+- simulation step
+- monitoring and bayesian adjustment step (with safety etc.)
