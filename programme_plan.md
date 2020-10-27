@@ -116,14 +116,32 @@ We would see this CCHIC:Peri-op becoming the _premier international resource for
 - [ ] TODO see existing notes in word document that are not replicated here
 
 ## Work package 2: Patient and Public involvement
-- [ ] TODO steal notes and ideas from NHSX grant
-- [ ] TODO link in with AboutMe and similar initiatives in the trust
-- [ ] TODO set up for gathering evidence for opt out consent
+**Objective: Build a patient, public, clinical and academic community to guide the development of this methodology**
 
-## Work package 3: A toolkit for Physician Prescribing Preference studies
-- [ ] TODO emphasise that you're building a pipeline for these rather than single studies
-- [ ] TODO insert Matt's existing work here
+My team has already started a series of patient-public involvement panels for this work. Initial meetings have been positive but highlighted the difficulty in explaining the (1) natural variation that occurs with clinical care and (2) why we are not already performing research of this kind. Feedback has suggested that opt-out consent is likely to be acceptable to many, but depends on appropriate communication. We have a small grant from UCLH BRC that we will use to supplement the funds allocated from this proposal to build a dedicated patient and public panel to work with us for the duration of the project. UCLH BRC has expressed interest in this work, and already supports the AboutMe initiative[^c] that also embeds research into the clinical care pathways (focusing initially on stroke and the genomics of hypertension).
 
+Patient and public involvement will be needed to
+- define and prioritise questions that might be suitable for the PreMEDS+R design
+- design and understand the communication issues necessary to be confident that we have adequate explanations of the risks and benefits of this approach for a wide range of health service users
+- design the qualitative interviews that will be conducted in the pilot phase (WP5) that will guide the transition from pre-emptive to opt-out consent
+- design the monitoring process that will be used to ensure that PreMEDS+R recruits, the right safeguards are in place to deliver the best evidence from existing literature and from the evolving inputs generated from the trial
+
+We will appoint patient representatives to the project steering committee from the outset. We will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. We will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not we have reached a stage where opt-out consent is a reasonable approach for the question at hand.
+
+## Work package 3: A toolkit for Clinician Prescribing Preference studies
+**Objective: Build a pipeline for rapid observational evaluation of interventions using variation in practice**
+
+Clinician Prescribing Preference (CPP) studies exploit natural variation in practice. A classic example comes from the psychiatric literature where GPs have been show to have consistent preferences for different classes of Selective Serotonin Uptake Inhibitors (SSRIs) and Tricyclic Antidepressants (TCAs).[@davies2013] Patients treatments therefore depended on which GP they attended. Given that GP assignment can be argued to be unrelated to the self-harm/suicide (after controlling for social deprivation etc.) then this permits an evaluation of the relative effectiveness of these drugs.
+
+My group has already completed an initial evaluation of this approach studying magnesium supplementation. We examined adult admissions to University College London Hospital Critical Care Unit (2016-17). Each patient’s admission was divided into ‘treatment windows’: including a serum magnesium measurement, an opportunity for supplementation linked to the bedside nurse on duty, and a period of observation (roughly equivalent to the 'day shift') for Atrial Fibrillation (AF). We identified 9,114 magnesium prescribing opportunities (1,914 patients). Approximately one-third of the variation in magnesium supplementation was due to the bedside nurse (see figure below) such that magnesium was supplemented on 48% of occasions where the nurse's habits placed them in the 'liberal' supplementation group versus 28% of occasions with 'conservative' nurses. AF was uncommon overall but decreased by approximately 3% when patient's were cared for by 'liberal' magnesium supplementers.
+
+![Probabilty of magnesium supplementation by bedside nurse](assets/mgbynurse.png)
+
+We will use the pseudonymised reference to the prescriber captured in CCHIC-periop (WP1) to define clinician's prescribing preferences for magnesium and oxygen saturation targets. Because prescribing preference is only one of many factors that affects the treatment decision then there is imperfect compliance. In other words, we are imagining an RCT where the patient's exposure to a pro- or anti- Magnesium 'top-up' clinician is the random coin toss. Other factors may trump the prescriber's preference (i.e. recent arrhythmias) but where the prescriber is otherwise indifferent then their inherent preference will affect the decision. For these marginal cases, we can use an Instrumental Variable (IV) technique to evaluate the causal effect of Magnesium on subsequent arrhythmias.
+
+This method both demonstrates the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for PreMEDS+R. This work package builds a robust, reproducible, and repeatable pipeline for generating this evidence. And this evidence then informs the priorities, and design of the prospective evaluations in WP3 and WP5. As CCHIC-Periop expands, the incremental cost of studying additional interventions will decrease. Other suitable targets might include transfusion triggers, oxygen targets, blood pressure targets, and antibiotic duration etc.
+
+- [ ] TODO add in regression discontinuity story
 
 ## Work package 4: PreMEDS+R design
 - [ ] TODO insert simulation work here? hence move the pilot design to the next WP
@@ -135,32 +153,15 @@ We would see this CCHIC:Peri-op becoming the _premier international resource for
 - [ ] TODO tackle MHRA issues: avoid CTIMPS
 
 ## Work package 5: Pilot trial with presumed consent
+- [ ] TODO use Matt's 'feasibility design'
 - [ ] TODO deliberately describe a factorial design to justify how this can scale
 
 
 
-**Objective: (1) Generate evidence of variation in practice using Physician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
+**Objective: (1) Generate evidence of variation in practice using Clinician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
 
-We have prepared two worked examples but it should be noted that in the actual project, the interventions to be tested will be developed and selected via a joint clinician/patient/public programme, and not investigator driven. This is especially important given that we will be moving to a presumed consent model, and that we will depend on the clinical workforce to engage with the **nudge** approach. Hence the actual questions to be studied may vary. Further examples might include
-
-- Titration of noradrenaline to target mean arterial blood pressure
-- Titration of inspired oxygen to target haemoglobin saturation
-- Transfusion of packed red cells to target haemoglobin concentrations
-- Supplementation of magnesium and potassium based on plasma concentrations
-- Fluid balance targeting after elective surgery
-- Duration of routine antibiotic therapy following elective surgery
 
 The intervention that is chosen will then be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement, and that we can deliver an effective PPI framework that will monitor its acceptability.
-
-### Physician Prescribing Preference (PPP) studies
-
-These studies exploit natural variation in practice. A classic example comes from the psychiatric literature where GPs have been show to have consistent preferences for different classes of Selective Serotonin Uptake Inhibitors (SSRIs) and Tricyclic Antidepressants (TCAs).[@davies2013] Patients treatments therefore depended on which GP they attended. Given that GP assignment can be argued to be unrelated to the self-harm/suicide (after controlling for social deprivation etc.) then this permits an evaluation of the relative effectiveness of these drugs. Comparable examples in critial care and peri-operative medicine would include transfusion triggers, oxygen targets, blood pressure targets, and antibiotic duration etc.
-
-We will use the pseudonymised reference to the prescriber capture in CCHIC-periop to define physicians prescribing preference as intercept estimates from a multi-level model (e.g. the administration of Magnesium would be the dependent variable with serum Magnesium and previous AF as the independent variables, and the prescriber as a random effect).
-
-Because prescribing preference is only on of many factors that affects the treatment decision then there is imperfect compliance. In other words, we are imagingin an RCT where the patient's exposure to a pro- or anti- Magnesium 'top-up' clinician is the random coin toss. Other factors may trump the prescriber's preference (i.e. recent arrhythmias) but where the prescriber is otherwise indifferent then their inherent preference will affect the decision. For these marginal cases, we can use an Instrumental Variable (IV) technique to evaluate the causal effect of Magnesium on subsequent arrhythmias.
-
-This method therefore both demonstrate the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for PreMEDS+R.
 
 
 ### Feasibility study
@@ -181,7 +182,7 @@ The programme will be wrapped around the test implementation of a the nudge rand
 
 The feasibility phase provides grounding for research ethics committee applications but will again serve as a standalone piece of work.  It is anticipated that the output will be suitable for submission to a suitable journal in addition.
 
-**Objective: (1) Generate evidence of variation in practice using Physician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
+**Objective: (1) Generate evidence of variation in practice using Clinician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
 
 ## Work package 3: PreMEDS+R pilot
 **Objective: Pilot the PreMEDS+R design using pre-emptive rather than presumed consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
@@ -192,6 +193,8 @@ The feasibility phase provides grounding for research ethics committee applicati
 [^a]: This is a more practical statement of theoretical equipoise which may be defined as "a state of uncertainty in the mind of the individual investigator regarding the relative merits of interventions A and B for some population of patients. When investigators are in such a state of uncertainty they do not knowingly disadvantage patients if they allow treatments to be allocated by a process that supports reliable medical inference, such as randomisation."
 
 [^b]: endotypes refer to distinct pathophysiological mechanisms within a disease entity that respond differently to treatments (i.e. create treatment heterogeneity) and therefore justify the idea of 'personalised medicine'
+
+[^c]: https://www.uclhospitals.brc.nihr.ac.uk/about-me
 
 
 # References

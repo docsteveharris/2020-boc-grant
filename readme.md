@@ -1,5 +1,14 @@
 # Log
 ## 2020-10-27
+### 2020-10-27t22:14:28
+We have prepared two worked examples but it should be noted that in the actual project, the interventions to be tested will be developed and selected via a joint clinician/patient/public programme, and not investigator driven. This is especially important given that we will be moving to a presumed consent model, and that we will depend on the clinical workforce to engage with the **nudge** approach. Hence the actual questions to be studied may vary. Further examples might include
+
+- Titration of noradrenaline to target mean arterial blood pressure
+- Titration of inspired oxygen to target haemoglobin saturation
+- Transfusion of packed red cells to target haemoglobin concentrations
+- Supplementation of magnesium and potassium based on plasma concentrations
+- Fluid balance targeting after elective surgery
+- Duration of routine antibiotic therapy following elective surgery
 
 ### 2020-10-27t11:28:58
 trial incubator
