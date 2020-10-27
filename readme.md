@@ -1,4 +1,12 @@
 # Log
+## 2020-10-27
+
+### 2020-10-27t11:28:58
+trial incubator
+- sample size
+- factorial design and interaction issues: to be explored
+    - be explicit in that you think these two things would be suitable for a factorial approach; want to see that scale
+
 
 ## 2020-10-27
 the bits of this which are neat and I like and need to do more work on
