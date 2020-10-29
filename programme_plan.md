@@ -95,7 +95,7 @@ We argue that this is the perfect domain in which to develop this methodology be
 This 4 year programme will build on three existing programmes. 
 
 1. The established **Critical Care Health Informatics Collaborative** (CCHIC) programme that holds data on 45000+ adminssions from 10+ NHS ICUs.[@harris2018b] The existing governance and data flows create an opportunity to magnify the influence of the RCOA/BOC grant to scale across multiple sites. 
-2. The **Experimental Medicine Application Platform** (EMAP) at UCLH where we have a proven track record of deploying novel applications in realtime against the hospital wide EHRS. More specifically, my team has spent the last two years building EMAP exactly to enable this sort of work.  EHR systems alone do not permit innovation and development. They are hampered by vendor lock-in, and by the need to prioritise clinical safety and reliability above all else. EMAP is a data science platform built for the NHS inside the NHS according to the following principles (1) Protection of operational systems by deploying a live mirror of the EHRS (2) Protection of patient privacy by following a 'code-to-data' rather than 'data-to-code' paradigm (3) Health care interoperability to permit cross-site collaboration and (4) Open source to foster a community of practice.
+2. The **Experimental Medicine Application Platform** (EMAP) at UCLH where I have a proven track record of deploying novel applications in realtime against the hospital wide EHRS. More specifically, my team has spent the last two years building EMAP exactly to enable this sort of work.  EHR systems alone do not permit innovation and development. They are hampered by vendor lock-in, and by the need to prioritise clinical safety and reliability above all else. EMAP is a data science platform built for the NHS inside the NHS according to the following principles (1) Protection of operational systems by deploying a live mirror of the EHRS (2) Protection of patient privacy by following a 'code-to-data' rather than 'data-to-code' paradigm (3) Health care interoperability to permit cross-site collaboration and (4) Open source to foster a community of practice.
 3. An existing collaboration with the Centre for Peri-operative Medicine at (CPOM) that has nurtured the last two Sprint National Anaesthesia Projects (SNAP). Together with Professor Moonesinghe, I co-led SNAP-2 that build a managed a (inter)national data set for high risk inpatient surgery.
 
 ## Work package 1: CCHIC-Peri-op
@@ -104,13 +104,13 @@ This 4 year programme will build on three existing programmes.
 The NIHR established the Health Informatics Collaborative in 2014. UCL/UCLH has led the Critical Care theme.[@harris2018b] I have co-led the project (with Singer/Brealey/MacCallum) since 2015. We have ethics (REC 14/LO/103) and CAG approval (14/CAG/1001) plus data sharing agreements for 7 UK sites (including Cambridge/GSTT-Kings/Imperial/Oxford/UCL and now the Royal Marsden and Bristol). Routinely collected clinical data from critical care admissions is transferred to UCL's  ISO/IEC 27001:2013 compliant [data safe haven](https://www.ucl.ac.uk/isd/services/file-storage-sharing/data-safe-haven-dsh) where it is organised, cleaned, linked to Hospital Episode Statistics ([HES](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics)) to define health care utilisation and long term survival, and then made available as resource back to the critical care community.
 Since 2015, **we have curated data for >45,000 admissions to critical care with 250 data items and >250 million data points**. This resource has led to a series of publications[@palmer2019a; @meiring2018], and high profile presentations (Hot Topics, Intensive Care Society 2019). We have also launched an educational programme including datathons and training courses for clincal data scientists.[@harris] We have had a favourable review of our ethics (2019 5 year review), and ongoing support at PPI events.
 
-- we will extend the scope of the ethics and the collaboration agreements with participating sites to the same cohort studied under the recent 2^nd^ Sprint National Anaesthesia Project (SNAP-2 EpiCCS: Epidemiology of Critical Care after Surgery).[@moonesinghe2017] That is **patients staying in hospital overnight undergoing a surgical or interventional procedure that requires the prescence of an anaesthetist**.
-- we will expand the data specification to include **key case mix measures for peri-operative medicine** (patient comorbidites, risk factors, surgical procedures, anaesthetic techniques and intra- and post-operative complications) leveraging experience with SNAP-2, PQIP[@wagstaff2019] and NELA[@eugene2018]
-- we will standardise and generate **five high quality outcome measures** from these data (1) mortality (2) length of stay (3) planned and unplanned critical care admission and (4) POMS[@grocott2007] and (5) using the existing CCHIC permissions (HES/ONS) to define health care utilisation and long term survival
-- we will add metadata to all drugs, orders, and treatment decisions to capture a pseudonymised identifier for the clinical decision maker to build evidence for variation in practice, and preparatory physician-prescribing preference studies[@rassen2009c]
-- the scale and scope of data collection requires hospitals that have integrated Electronic Health Records (EHRs). The interventional arm of the study further requires a working clinical decision support technology. We have already had a favourable response from approaching the Cambridge BRC (see attached letter of support from Dr Ari Ercole). 
+- I will extend the scope of the ethics and the collaboration agreements with participating sites to the same cohort studied under the recent 2^nd^ Sprint National Anaesthesia Project (SNAP-2 EpiCCS: Epidemiology of Critical Care after Surgery).[@moonesinghe2017] That is **patients staying in hospital overnight undergoing a surgical or interventional procedure that requires the prescence of an anaesthetist**.
+- I will expand the data specification to include **key case mix measures for peri-operative medicine** (patient comorbidites, risk factors, surgical procedures, anaesthetic techniques and intra- and post-operative complications) leveraging experience with SNAP-2, PQIP[@wagstaff2019] and NELA[@eugene2018]
+- I will standardise and generate **five high quality outcome measures** from these data (1) mortality (2) length of stay (3) planned and unplanned critical care admission and (4) POMS[@grocott2007] and (5) using the existing CCHIC permissions (HES/ONS) to define health care utilisation and long term survival
+- I will add metadata to all drugs, orders, and treatment decisions to capture a pseudonymised identifier for the clinical decision maker to build evidence for variation in practice, and preparatory physician-prescribing preference studies[@rassen2009c]
+- the scale and scope of data collection requires hospitals that have integrated Electronic Health Records (EHRs). The interventional arm of the study further requires a working clinical decision support technology. I have already had a favourable response from approaching the Cambridge BRC (see attached letter of support from Dr Ari Ercole). 
 
-We would see this CCHIC:Peri-op becoming the _premier international resource for observational studies of high risk surgery and peri-operative medicine_. Just at UCLH trust (including RNTNE, NHNN, WMS) we would expect to recruit >10,000 patients per year. Using the NIHR Health Informatics Collaborative network as a springboard alongside extensive and broad networks developed running SNAP-2/EpiCCS, we would seek funding to expand to further sites during the 4 years.
+We would see this CCHIC:Peri-op becoming the _premier international resource for observational studies of high risk surgery and peri-operative medicine_. Just at UCLH trust (including RNTNE, NHNN, WMS) I would expect to recruit >10,000 patients per year. Using the NIHR Health Informatics Collaborative network as a springboard alongside extensive and broad networks developed running SNAP-2/EpiCCS, I would seek funding to expand to further sites during the 4 years.
 
 
 - [ ] TODO see existing notes in word document that are not replicated here
@@ -126,7 +126,7 @@ Patient and public involvement will be needed to
 - design the qualitative interviews that will be conducted in the pilot phase (WP5) that will guide the transition from pre-emptive to opt-out consent
 - design the monitoring process that will be used to ensure that PreMEDS+R recruits, the right safeguards are in place to deliver the best evidence from existing literature and from the evolving inputs generated from the trial
 
-We will appoint patient representatives to the project steering committee from the outset. We will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. We will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not we have reached a stage where opt-out consent is a reasonable approach for the question at hand.
+We will appoint patient representatives to the project steering committee from the outset. I will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. I will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not I have reached a stage where opt-out consent is a reasonable approach for the question at hand.
 
 ## Work package 3: A toolkit for Clinician Prescribing Preference studies
 **Objective: Build a pipeline for rapid observational evaluation of interventions using variation in practice**
@@ -144,49 +144,96 @@ This method both demonstrates the degree of exising variation in practice, and g
 - [ ] TODO add in regression discontinuity story
 
 ## Work package 4: PreMEDS+R design
-- [ ] TODO insert simulation work here? hence move the pilot design to the next WP
-        factorial issues
-        sample size
-- [ ] TODO human interface design
-        implementing the nudge so that it becomes part of the routine workflow
-- [ ] TODO implementing nudge randomisation within the EHR
-- [ ] TODO tackle MHRA issues: avoid CTIMPS
+**Objective: To generate the supporting evidence (sample size, nudge design etc.) to transition the observational proposal to a trial protocol**
+This proposal is designed to generate a pipeline for rapid evidence generation. This means that each proposal will need to move through a templated series of steps. We will explore and develop methodologies within this work package to this end:
 
-## Work package 5: Pilot trial with presumed consent
+- trial simulation to estimate feasibility. I will leverage existing collaborations to build a Bayesian simulation framework that will take the effect sizes estimated in WP3 via the CPP studies. These will be combined with initial estimates (to be iterated on in WP5) of nudge compliance to generate likely sample sizes. This in turn will be used to select which questions to prioritise and progress
+- factorial designs will be preferred where possible to permit evaluation of multiple interventions simultaneousy. The two exemplar questions (magnesium supplementation and oxygen targets) are not expected to have an interactions and would be appropriate for this approach. In all cases, we will nonetheless, need to confirm that the expected variation in practice remains across different factor levels; or set out to deliberately explore anticipated and desired interactions but adjust the sample size accordingly
+- human interface design for each question. We will need to examine where in the clinical workflow the decision point occurs, and what trigger in the electronic record will most appropriately and effectively deliver the nudge. For example, 
+    - magnesium supplementation is normally delivered in the first few hours of the day shift by the bedside nurse after he or she reviews the magnesium results from night time samples. There are several opportunities to nudge the bedside nurse: at first log on; when the magnesium result is first viewed in the EHR; or at custom times in the day based on known rhythms of work. 
+    - oxygen saturation targets are often set by the medical team during the daily ward round but may be left to the discretion of the junior clinician, or default to unit targets. Actioning of the target will then depend on the bedside nurse's rhythm of work, when they observe and record SpO2, and when they review the medical guidance. Again, we will need to choose the most appropriate moment to trigger the alert such that it is effective but non-intrusive (and counterproductive)
+
+The ideal any such scenario is for a nurse that guides behaviour as part of the routine workflow such that it reduces cognitive load (as in decision _support_) by providing relevant timely advice.
+
+- [ ] TODO stopping rules
+
+## Work package 5A: A feasibilty study with presumed consent
+**Objective: A feasibilty study to evaluate the PreMEDS+R design**
 - [ ] TODO use Matt's 'feasibility design'
 - [ ] TODO deliberately describe a factorial design to justify how this can scale
 
+The two interventions now be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement (that is convert the existing clinical decision support functionality to serve our needs), and that we can deliver an effective PPI framework that will monitor its acceptability (as per WP2). I will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision support tools. The software engineering will be quality controlled to meet necessary standards for health care (ISO 62304 and DCB0129). Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
 
+The feasibilty study will be a prospective randomised clinical trial using a convenience sample from an appropriate surgical population.  Patients will be recruited from Anaesthetic Pre-assessment Clinic prior to surgery.  At this point decision to undergo surgery will have been taken.  Patients will receive a study information sheet and an explanation of the study from the recruiter.  Following this they will be offered an opportunity to provide (pre-emptive) written consent to the study. The study will then run as per the intended final design: embedded decision support with randomisation (via nudging). However, at this stage, a survey will be delivered to both clincians and patients along with follow-up qualitative interviews.
+The focus will be on
+- clinician compliance with the nudge (to adjust the sample size estimates)
+- clinical acceptabilty of the nudged design
 
-**Objective: (1) Generate evidence of variation in practice using Clinician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
+Primary Outcome:
+Clinician compliance with "nudge". 
+Number of times in the intervention arm that the clinician agrees to the "nudge", compared with the total number of opportunities to comply i.e. "nudge" efficacy.  Including variance of nudge compliance across treatment groups.
+Secondary Outcomes:
+1.	Qualitative semi-structured interview data from patients and families:
+a.	Existing knowledge of variation in practice as a concept.
+b.	The acceptability of a pre-emptive consent model.
+c.	The acceptability of clinician "nudge" randomisation tool.
+2.	Qualitative semi-structured interview data from clinicians:
+a.	Existing knowledge of variation in practice as a concept.
+b.	The acceptability of a pre-emptive consent model.
+c.	The acceptability of clinician "nudge" randomisation tool.
+3.	Variation in Magnesium targets  
+4.	Actual Magnesium delivery.
+5.	Prevalence of atrial fibrillation or other arrhythmias
+Safety Considerations
 
+The study will run as per 
+The primary objective will be sufficient qualitative evidence of 
+The study will be embedded in the EHR, and data collection processes will be evaluated.
+- Data collection:
+    - Outcomes, randomisation events, and confounders will be extracted from the electronic health record
+    - Qualitative interviews, surveys and small group discussions will be held with both the participating patients and with the clinician being 'nudged'. Topics for exploration will include
 
-The intervention that is chosen will then be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement, and that we can deliver an effective PPI framework that will monitor its acceptability.
+    - Existing routinely collected clinical data from multiple electronic record systems on the ICU. The EHRS contains a pre-existing framework for integrating research, including a randomisation module to enable randomisation at the level of the individual patient record.  Having demonstrated patient and clinician acceptability of this tool, future work will embed this within the EHRS.
+Recruitment
 
-
-### Feasibility study
-
-#### Problems with Consent
-
-
-This phase will undertake a qualitative assessment and analysis directed at the main stakeholders of the project, patients, relatives and clinicians.  This progresses an established programme (i.e. that of CCHIC) of patient and public involvement work in this area.  The focus of the qualitative assessment will be threefold:
-
-1.	Knowledge and attitudes towards variation in practice
-2.	Acceptability of the suggested investigative approach, with particular emphasis on the nudge randomisation tool for recruitment (and focusing on clinical acceptance of this approach)
-3.	Acceptability of pre-emptive and opt-out consent models
-
-The programme will be wrapped around the test implementation of a the nudge randomisation tool. We will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision suppor tools. The software engineering will be quality controlled so that it is suitable for submission for MHRA approval. Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
-
+Patient Journey/Study Flow
 
 #### Outputs
 
 The feasibility phase provides grounding for research ethics committee applications but will again serve as a standalone piece of work.  It is anticipated that the output will be suitable for submission to a suitable journal in addition.
 
-**Objective: (1) Generate evidence of variation in practice using Clinician Prescribing Preference studies and (2) Run a feasibilty study to test the PreMEDS+R design**
 
-## Work package 3: PreMEDS+R pilot
-**Objective: Pilot the PreMEDS+R design using pre-emptive rather than presumed consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
+## Work package 5B: A pilot study with opt-out consent
+**Objective: Pilot the PreMEDS+R design using opt-out consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
 
+The final piece of work in this proposal will be to see the ideas designed thus far graduate to a full version of the PreMEDS+R design at one or more research sites. Our ambition will be to have applied for funding and support during year 3 for this to run at multiple sites. We think this is reasonable and likely given the evidence that we will have generated by that stage, but do not feel that we can fund such a programme within the scope of this grant alone. For that reason, this final WP is described at UCLH alone. 
+
+The trial itself will continue to run as per WP5A with the single exception of the timing of consent that will move to an opt-out model. This transition will be remain a target of tapering active evaluation. In other words, we will purposefully approach a random sample of patients during the early stages of the opt-out model to seek their views on the trial. We will gather evidence to ensure that they understood that they were on a treatment pathway where (1) uncertainty remains for the clinician and that (2) research including randomisation was being employed to reduce this uncertainty and that they (3) were aware of their rights to opt-out.
+
+The trial itself will be designed to prove that we can generate evidence according to the principles outlined. That is:
+- embedded within the electronic health record so that
+    - there is no additional burden of data collection
+    - trial monitoring including adaptive randomisation is delivered through the EHR
+- more than one intervention is evaluated simultaneously (e.g. both oxygen saturation targets and magnesium supplementation thresholds)
+- compliance with the nudge remains effective but deliberately imperfect indicating that we are identifying the individual moments of equipoise for each bedside clinician but that clinician nonetheless is prepared to override the nudged recommendation when they have relevant and particular knowledge
+- compliance with the decision support component remains effective so that unwarranted variation is reduced and treatments are consistent where evidence is available
+- that the inefficiency associated with nudged (rather than mandated) randomisation was more than compensated for by the recruitment rates achieved by embedding the randomisation event and allowing each clinician to find their own level of equipoise. 
+
+
+Success criteria will include
+- high levels of awareness of the study among patients on the treatment pathway
+- qualitative statements of support from patients who aware of the study
+- low levels of withdrawal from participation in the PreMEDS+R pathway 
+- consistent and non-trivial rates of compliance with the nudged randomisation 
+- recruitment rates that succeed by an order of magnitude those that could be achieved by standard approaches
+
+Stretch goals will include
+- successful funding applications to see the study extended to other sites
+- new clinical questions entering the beginning of the trial pipeline
+- early evidence of treatment effects that allow a treatment arm to be retired either because it has proven inferior or equivalent but more costly
+
+
+---
 
 # Endnotes
 

@@ -1,4 +1,8 @@
 # Log
+## 2020-10-28
+- [ ] TODO add in note about the frustration of not having the right tools to deploy for rapid learning in surge 1
+    go back and give example of nuding for additional / less time on CPAP
+
 ## 2020-10-27
 ### 2020-10-27t22:14:28
 We have prepared two worked examples but it should be noted that in the actual project, the interventions to be tested will be developed and selected via a joint clinician/patient/public programme, and not investigator driven. This is especially important given that we will be moving to a presumed consent model, and that we will depend on the clinical workforce to engage with the **nudge** approach. Hence the actual questions to be studied may vary. Further examples might include
