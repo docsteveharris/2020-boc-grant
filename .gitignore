@@ -2,4 +2,6 @@
 *~
 *.swp
 DEVONtech_storage
+.DS_Store
+Session.vim
 
