@@ -44,25 +44,6 @@ Study exemplars:
 - Comparison of conservative versus liberal oxygen targets on post-operative morbidity following high risk surgery admitted to critical care
 - Comparison of high versus low targets of magnesium supplementation on post-operative atrial fibrillation following high risk surgery admitted to critical care	 
 
-### COVID-19 and this proposal
-
-This proposal was originally submitted in January 2020 with peri-operative medicine as its target domain.
-
-I argued then that peri-operative medicine was an ideal space within which to develop this novel methodology, because I could start with a pre-emptive consent model implemented in the pre-assessment clinic, before moving to presumed (opt-out) consent. I built the previous version of this proposal around the evaluation of magnesium supplementation, and oxygen saturation targets in the peri-operative period. These interventions were selected because they were part of routine care wherein I could already identify variation in practice, where there was no gold standard randomised controlled trial evidence recommending a single approach, and where a there was a reasonable chance that a more personalised treatment approach provide benefit.
-
-I am now resubmitting in October 2020 as we head into the winter with a second surge of SARS-CoV-2 very likely. I continue to believe that better methods for improving evidence generation should be our highest priority. This remains the focus of this application. I recognise that both classical RCTs, and modern interpretations of the RCT (RECOVERY, and REMAP-CAP) are addressing key treatment questions. However, as rehearsed in detail below, these implementations can never hope to provide answers to the full range of scenarios that bedside clinicians must tackle. RECOVERY runs with five treatment arms and recruited 10,000 patients over just a couple of months, and REMAP-CAP with four domains and around 1,500 over a slightly longer time period. These trials are focused evaluations of specific, sometimes novel, sometime repurposed drug treatments. Even together, they address less than ten interventions representing a small fraction of the decisions that constitute the care pathway.
-
-For example, there are no trials evaluating the timing of intubation and ventilation for SARS-CoV-2. I do not know when to prone or stop proning patients. I have no evidence to select a particular PEEP target, nor what level of oxygen saturation is acceptable. The list of questions is almost innumerable. Should I humidify the ventilator circuits? What level of d-dimer would trigger investigation for pulmonary embolism? How much does fluid balance affect the risk of progression to respiratory failure and acute kidney injury? Crucially, even if I did find the resource to study each of these topics in an RCT, the final answer would be incomplete as it is inevitable that what is true on average will not be true for all patient subgroups. Some patients will tolerate lower oxygen saturations better than others. Some will need a more generous fluid balance and so on.
-
-I argue now that the best response to COVID-19 is not a disease specific study, but a programme of work that would permit more rapid evidence generation. This is not a sop to the request from the grant panel for COVID-19 orientated research, but a sincere claim. In April, in the midst of the first surge, we tried hard to implement a version of PreMEDS+R to examine the safety of CPAP for COVID-19. Variation in practice was already rife without a strong evidence base for either the 'early intubation' or 'CPAP first' approach.[Harris BJA 2020] Personal communication with proponents of each approach revealed that equipoise existed for most, but that the point of equipoise varied substantially. Some would tolerate a very brief trial of CPAP, and others a very prolonged trial. Few would rule out either strategy in *all* circumstances. The question was not 'CPAP first' versus 'early intubation' but was there a subgroup who would benefit from a period of CPAP, and if so how long was it safe to continue CPAP (if it was tried). This could not be easily collapsed down into a standard parallel arm RCT.
-
-We instead prepared a protocol (Appendix 1) using the methodology in this proposal that permitted each clinician to participate, treat as per their own judgement where they had confidence in their approach, and randomise within their own 'zone' of equipoise. 
-
-![](assets/sttars_by_day.jpeg)
-
-However, even with the local support that we received (and had the first surge of COVID-19 continued for longer in London), there were too many novel steps to implement. This is why the timescale of this grant call is more appropriate for this work. Moreover, retaining the original focus on peri-operative medicine is important because this remains an area of unmet need that has not been diminished by this crisis, and because my existing group of collaborators gives this the best possible chance of success.
-
-If SARS-CoV remains a major part of critical care going forwards, then we are now laying the foundations for delivering the answers to this and other questions that confront the bedside clinician, and will not be suitable for trials such as RECOVERY, REMAP-CAP or similar.
 
 ---
 
@@ -132,22 +113,12 @@ Since 2015, **we have curated data for >45,000 admissions to critical care with 
 
 We would see this CCHIC:Peri-op becoming the _premier international resource for observational studies of high risk surgery and peri-operative medicine_. Just at UCLH trust (including RNTNE, NHNN, WMS) I would expect to recruit >10,000 patients per year. Using the NIHR Health Informatics Collaborative network as a springboard alongside extensive and broad networks developed running SNAP-2/EpiCCS, I would seek funding to expand to further sites during the 4 years.
 
+## Work package 2: PreMEDS+R trial incubator
+**Objective: Build a pipeline for delivering such trials from question to implementation**
 
-## Work package 2: Patient and Public involvement
-**Objective: Build a patient, public, clinical and academic community to guide the development of this methodology**
 
-My team has already started a series of patient-public involvement panels for this work. Initial meetings have been positive but highlighted the difficulty in explaining the (1) natural variation that occurs with clinical care and (2) why we are not already performing research of this kind. Feedback has suggested that opt-out consent is likely to be acceptable to many, but depends on appropriate communication. We have a small grant from UCLH BRC that we will use to supplement the funds allocated from this proposal to build a dedicated patient and public panel to work with us for the duration of the project. UCLH BRC has expressed interest in this work, and already supports the AboutMe initiative[^c] that also embeds research into the clinical care pathways (focusing initially on stroke and the genomics of hypertension).
-
-Patient and public involvement will be needed to
-- define and prioritise questions that might be suitable for the PreMEDS+R design
-- design and understand the communication issues necessary to be confident that we have adequate explanations of the risks and benefits of this approach for a wide range of health service users
-- design the qualitative interviews that will be conducted in the pilot phase (WP5) that will guide the transition from pre-emptive to opt-out consent
-- design the monitoring process that will be used to ensure that PreMEDS+R recruits, the right safeguards are in place to deliver the best evidence from existing literature and from the evolving inputs generated from the trial
-
-We will appoint patient representatives to the project steering committee from the outset. I will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. I will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not I have reached a stage where opt-out consent is a reasonable approach for the question at hand.
-
-## Work package 3: A toolkit for Clinician Prescribing Preference studies
-**Objective: Build a pipeline for rapid observational evaluation of interventions using variation in practice**
+## Work package 2A+2B: A toolkit for Clinician Prescribing Preference studies
+**Objective: Build a pipeline for rapid observational evaluation of variation in practice and evaluation of proposed interventions**
 
 Clinician Prescribing Preference (CPP) studies exploit natural variation in practice. A classic example comes from the psychiatric literature where GPs have been show to have consistent preferences for different classes of Selective Serotonin Uptake Inhibitors (SSRIs) and Tricyclic Antidepressants (TCAs).[@davies2013] Patients treatments therefore depended on which GP they attended. Given that GP assignment can be argued to be unrelated to the self-harm/suicide (after controlling for social deprivation etc.) then this permits an evaluation of the relative effectiveness of these drugs.
 
@@ -159,74 +130,65 @@ We will use the pseudonymised reference to the prescriber captured in CCHIC-peri
 
 This method both demonstrates the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for PreMEDS+R. This work package builds a robust, reproducible, and repeatable pipeline for generating this evidence. And this evidence then informs the priorities, and design of the prospective evaluations in WP3 and WP5. As CCHIC-Periop expands, the incremental cost of studying additional interventions will decrease. Other suitable targets might include transfusion triggers, oxygen targets, blood pressure targets, and antibiotic duration etc.
 
-- [ ] TODO add in regression discontinuity story
-
-## Work package 4: PreMEDS+R design
+## Work package 2C: Statistical simulation procedures
 **Objective: To generate the supporting evidence (sample size, nudge design etc.) to transition the observational proposal to a trial protocol**
+
 This proposal is designed to generate a pipeline for rapid evidence generation. This means that each proposal will need to move through a templated series of steps. We will explore and develop methodologies within this work package to this end:
 
-- trial simulation to estimate feasibility. I will leverage existing collaborations to build a Bayesian simulation framework that will take the effect sizes estimated in WP3 via the CPP studies. These will be combined with initial estimates (to be iterated on in WP5) of nudge compliance to generate likely sample sizes. This in turn will be used to select which questions to prioritise and progress
+- trial simulation to estimate feasibility. I will leverage existing collaborations to build a Bayesian simulation framework that will take the effect sizes estimated in WP2B via the CPP studies. These will be combined with initial estimates (to be iterated on in WP3) of nudge compliance to generate likely sample sizes. This in turn will be used to select which questions to prioritise and progress
 - factorial designs will be preferred where possible to permit evaluation of multiple interventions simultaneousy. The two exemplar questions (magnesium supplementation and oxygen targets) are not expected to have an interactions and would be appropriate for this approach. In all cases, we will nonetheless, need to confirm that the expected variation in practice remains across different factor levels; or set out to deliberately explore anticipated and desired interactions but adjust the sample size accordingly
-- human interface design for each question. We will need to examine where in the clinical workflow the decision point occurs, and what trigger in the electronic record will most appropriately and effectively deliver the nudge. For example, 
-    - magnesium supplementation is normally delivered in the first few hours of the day shift by the bedside nurse after he or she reviews the magnesium results from night time samples. There are several opportunities to nudge the bedside nurse: at first log on; when the magnesium result is first viewed in the EHR; or at custom times in the day based on known rhythms of work. 
-    - oxygen saturation targets are often set by the medical team during the daily ward round but may be left to the discretion of the junior clinician, or default to unit targets. Actioning of the target will then depend on the bedside nurse's rhythm of work, when they observe and record SpO2, and when they review the medical guidance. Again, we will need to choose the most appropriate moment to trigger the alert such that it is effective but non-intrusive (and counterproductive)
+- trial simulation to explore adaptive thresholds and stopping rules for either efficacy or futility
 
-The ideal any such scenario is for a nurse that guides behaviour as part of the routine workflow such that it reduces cognitive load (as in decision _support_) by providing relevant timely advice.
+## Work package 2D+2E: Decision support and randomisation tool implementation
+**Objective: To identify the appropriate moment and method to provide decision support (or) randomisation**
+We will need to examine where in the clinical workflow the decision point occurs, and what trigger in the electronic record will most appropriately and effectively deliver the nudge. For example, 
+- magnesium supplementation is normally delivered in the first few hours of the day shift by the bedside nurse after he or she reviews the magnesium results from night time samples. There are several opportunities to nudge the bedside nurse: at first log on; when the magnesium result is first viewed in the EHR; or at custom times in the day based on known rhythms of work. 
+- oxygen saturation targets are often set by the medical team during the daily ward round but may be left to the discretion of the junior clinician, or default to unit targets. Actioning of the target will then depend on the bedside nurse's rhythm of work, when they observe and record SpO2, and when they review the medical guidance. Again, we will need to choose the most appropriate moment to trigger the alert such that it is effective but non-intrusive (and counterproductive)
 
-- [ ] TODO stopping rules
+The ideal any such scenario is for a nudge that guides behaviour as part of the routine workflow such that it reduces cognitive load (as in decision _support_) by providing relevant timely advice. We have an existing collaboration with health design teams, and with the EHRS team here at UCLH. My team are already exploring mechanisms for adapting the existing decision support and embedded randomisation tools for this purpose (through an MRC funded PhD Fellowship). We plan to trial several different strategies in 2021, and evaluate how they affect nudge compliance and impact on work flow. We will in addition explore through interviews and small group discussions with clinicians their views on the delivered nudge. This will provide the foundation for implementation here.
 
-## Work package 5A: A feasibilty study with presumed consent
-**Objective: A feasibilty study to evaluate the PreMEDS+R design**
-- [ ] TODO use Matt's 'feasibility design'
-- [ ] TODO deliberately describe a factorial design to justify how this can scale
+## Work package 2F: Patient and public involvement and transition to opt-out consent
+**Objective: Build a patient, public, clinical and academic community to guide the development of this methodology**
 
-The two interventions now be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement (that is convert the existing clinical decision support functionality to serve our needs), and that we can deliver an effective PPI framework that will monitor its acceptability (as per WP2). I will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision support tools. The software engineering will be quality controlled to meet necessary standards for health care (ISO 62304 and DCB0129). Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
+My team has already started a series of patient-public involvement panels for this work. Initial meetings have been positive but highlighted the difficulty in explaining the (1) natural variation that occurs with clinical care and (2) why we are not already performing research of this kind. Feedback has suggested that opt-out consent is likely to be acceptable to many, but depends on appropriate communication. We have a small grant from UCLH BRC that we will use to supplement the funds allocated from this proposal to build a dedicated patient and public panel to work with us for the duration of the project. UCLH BRC has expressed interest in this work, and already supports the AboutMe initiative[^c] that also embeds research into the clinical care pathways (focusing initially on stroke and the genomics of hypertension).
 
-The feasibilty study will be a prospective randomised clinical trial using a convenience sample from an appropriate surgical population.  Patients will be recruited from Anaesthetic Pre-assessment Clinic prior to surgery.  At this point decision to undergo surgery will have been taken.  Patients will receive a study information sheet and an explanation of the study from the recruiter.  Following this they will be offered an opportunity to provide (pre-emptive) written consent to the study. The study will then run as per the intended final design: embedded decision support with randomisation (via nudging). However, at this stage, a survey will be delivered to both clincians and patients along with follow-up qualitative interviews.
-The focus will be on
-- clinician compliance with the nudge (to adjust the sample size estimates)
-- clinical acceptabilty of the nudged design
+Patient and public involvement will be needed to
+- define and prioritise questions that might be suitable for the PreMEDS+R design
+- design and understand the communication issues necessary to be confident that we have adequate explanations of the risks and benefits of this approach for a wide range of health service users
+- design the qualitative interviews that will be conducted in the pilot phase (WP3) that will guide the transition from pre-emptive to opt-out consent
+- design the monitoring process that will be used to ensure that PreMEDS+R recruits, the right safeguards are in place to deliver the best evidence from existing literature and from the evolving inputs generated from the trial
 
-Primary Outcome:
-Clinician compliance with "nudge". 
-Number of times in the intervention arm that the clinician agrees to the "nudge", compared with the total number of opportunities to comply i.e. "nudge" efficacy.  Including variance of nudge compliance across treatment groups.
-Secondary Outcomes:
-1.	Qualitative semi-structured interview data from patients and families:
-a.	Existing knowledge of variation in practice as a concept.
-b.	The acceptability of a pre-emptive consent model.
-c.	The acceptability of clinician "nudge" randomisation tool.
-2.	Qualitative semi-structured interview data from clinicians:
-a.	Existing knowledge of variation in practice as a concept.
-b.	The acceptability of a pre-emptive consent model.
-c.	The acceptability of clinician "nudge" randomisation tool.
-3.	Variation in Magnesium targets  
-4.	Actual Magnesium delivery.
-5.	Prevalence of atrial fibrillation or other arrhythmias
-Safety Considerations
+We will appoint patient representatives to the project steering committee from the outset. I will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. I will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not I have reached a stage where opt-out consent is a reasonable approach for the question at hand.
 
-The study will run as per 
-The primary objective will be sufficient qualitative evidence of 
-The study will be embedded in the EHR, and data collection processes will be evaluated.
-- Data collection:
-    - Outcomes, randomisation events, and confounders will be extracted from the electronic health record
-    - Qualitative interviews, surveys and small group discussions will be held with both the participating patients and with the clinician being 'nudged'. Topics for exploration will include
+## Work package 3A+3B: (3A) A feasibility study with presumed consent transitioning to (3B) a pilot study with opt-out consent
+**Objective: A feasibility study to evaluate the PreMEDS+R design**
 
-    - Existing routinely collected clinical data from multiple electronic record systems on the ICU. The EHRS contains a pre-existing framework for integrating research, including a randomisation module to enable randomisation at the level of the individual patient record.  Having demonstrated patient and clinician acceptability of this tool, future work will embed this within the EHRS.
-Recruitment
+The two interventions now be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the _feasibility_ study is to prove that the nudge-randomisation tool is technically feasible to implement (that is convert the existing clinical decision support functionality to serve our needs), and that we can deliver an effective PPI framework that will monitor its acceptability (as per WP2). I will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision support tools. The software engineering will be quality controlled to meet necessary standards for health care (ISO 62304 and DCB0129). Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
 
-Patient Journey/Study Flow
+The feasibility study will be a prospective randomised clinical trial using a convenience sample from an appropriate surgical population.  Patients will be recruited from Anaesthetic Pre-assessment Clinic prior to surgery.  At this point decision to undergo surgery will have been taken.  Patients will receive a study information sheet and an explanation of the study from the recruiter.  Following this they will be offered an opportunity to provide (pre-emptive) written consent to the study. The study will then run as per the intended final design: embedded decision support with randomisation (via nudging). However, at this stage, a survey will be delivered to both clinicians and patients along with follow-up qualitative interviews.
 
-#### Outputs
+The primary outcome will be 
+- clinician compliance with the nudge (to adjust the sample size estimates):Number of times in the intervention arm that the clinician agrees to the "nudge", compared with the total number of opportunities to comply i.e. "nudge" efficacy.  Including variance of nudge compliance across treatment groups.
+- clinical acceptability of the nudged design
 
-The feasibility phase provides grounding for research ethics committee applications but will again serve as a standalone piece of work.  It is anticipated that the output will be suitable for submission to a suitable journal in addition.
+Secondary outcomes will be include:
+1. via qualitative semi-structured interview data from patients and families:
+    a.	Existing knowledge of variation in practice as a concept.
+    b.	The acceptability of an opt-out consent model.
+    c.	The acceptability of clinician "nudge" randomisation tool.
+2. via qualitative semi-structured interview data from clinicians:
+    a.	Existing knowledge of variation in practice as a concept.
+    b.	The acceptability of a opt-out consent model.
+    c.	The acceptability of clinician "nudge" randomisation tool.
 
+If the estimated rate of nudge 'compliance' is such that the trial could generate evidence in a meaningful time frame _and_ the qualitative feedback from patients and clinicians is supportive then we will proceed to WP3B.
 
-## Work package 5B: A pilot study with opt-out consent
-**Objective: Pilot the PreMEDS+R design using opt-out consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
+## Work package 3B: A pilot study with opt-out consent
+**Objective: Pilot the PreMEDS+R design using opt-out consent; confirm estimates of nudge compliance, recruitment, and effect size; prepare for a major programme grant**
 
 The final piece of work in this proposal will be to see the ideas designed thus far graduate to a full version of the PreMEDS+R design at one or more research sites. Our ambition will be to have applied for funding and support during year 3 for this to run at multiple sites. We think this is reasonable and likely given the evidence that we will have generated by that stage, but do not feel that we can fund such a programme within the scope of this grant alone. For that reason, this final WP is described at UCLH alone. 
 
-The trial itself will continue to run as per WP5A with the single exception of the timing of consent that will move to an opt-out model. This transition will be remain a target of tapering active evaluation. In other words, we will purposefully approach a random sample of patients during the early stages of the opt-out model to seek their views on the trial. We will gather evidence to ensure that they understood that they were on a treatment pathway where (1) uncertainty remains for the clinician and that (2) research including randomisation was being employed to reduce this uncertainty and that they (3) were aware of their rights to opt-out.
+The trial itself will continue to run as per WP3A with the single exception of the timing of consent that will move to an opt-out model. This transition will remain a target for active (but tapering) evaluation. In other words, we will purposefully approach a random sample of patients during the early stages of the opt-out model to seek their views on the trial. We will gather evidence to ensure that they understood that they were on a treatment pathway where (1) uncertainty remains for the clinician and that (2) research including randomisation was being employed to reduce this uncertainty and that they (3) were aware of their rights to opt-out.
 
 The trial itself will be designed to prove that we can generate evidence according to the principles outlined. That is:
 - embedded within the electronic health record so that
@@ -236,7 +198,6 @@ The trial itself will be designed to prove that we can generate evidence accordi
 - compliance with the nudge remains effective but deliberately imperfect indicating that we are identifying the individual moments of equipoise for each bedside clinician but that clinician nonetheless is prepared to override the nudged recommendation when they have relevant and particular knowledge
 - compliance with the decision support component remains effective so that unwarranted variation is reduced and treatments are consistent where evidence is available
 - that the inefficiency associated with nudged (rather than mandated) randomisation was more than compensated for by the recruitment rates achieved by embedding the randomisation event and allowing each clinician to find their own level of equipoise. 
-
 
 Success criteria will include
 - high levels of awareness of the study among patients on the treatment pathway
@@ -249,7 +210,6 @@ Stretch goals will include
 - successful funding applications to see the study extended to other sites
 - new clinical questions entering the beginning of the trial pipeline
 - early evidence of treatment effects that allow a treatment arm to be retired either because it has proven inferior or equivalent but more costly
-
 
 ---
 
