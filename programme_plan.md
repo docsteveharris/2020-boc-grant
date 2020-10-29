@@ -3,64 +3,18 @@ title: Programme plan
 export_on_save:
     pandoc: true
 output: word_document
-date: 2020-10-13
+date: 2020-10-27
 author: Steve Harris
 bibliography: references.bib
 # csl: plos-medicine.csl
 csl: science-without-titles.csl
 ---
-- [ ] TODO target 5000 words
-- [ ] TODO @idea can you use a regression discontinuity approach for the threshold investigation for respiratory support
+{>>Target 5000 words<<}
 
 # Title
-Embedded Randomised
-Nudge-learning and Decision Support
-Adaptive
-Learning Adaptively from Embedded Random Nudges or Decision Support (LEARNDS)
-ERNLDS
 
-REMAP-nudge: leveraging the Critical Care Health Informatics Collaborative to build a learning health care system for peri-operative medicine
-
-- [ ] TODO change the title; talk about eliciting equipoise at scale through a more subtle approach
-
-## Problem statement
-
-1. **Randomised controlled trial are expensive and unable to be deployed to answer the range of questions that most clinicians encounter**
-
-There is near universal agreement that the gold standard for evidence generation in clinical medicine is the randomised controlled trial (RCT). However, RCTs suffer from a series of well rehearsed problems related to cost and efficiency. This limits their scope and generalisability. The cost in time and resource is such that we are afforded the chance to ask only a small number of questions, and often over a period of many years. The consequence is that these questions have to be broad, and resulting answers whilst true on average cannot be personalised or specific.  
-Part of the response to these problems has been to develop strategies that minimise the cost of RCTs by __embedding__ them in existing data collection structures such as audit programmes or electronic health record systems (EHRS). Better still the trials are not seen as one-off events focused on evaluation of a single treatment, but are instead seen as a __platform__ for the investigation of a single disease. As a treatment is shown to be less effective than its comparator, that treatment is replaced with a new proposed replacement. Over time, better and better treatments are identified without incurring the delays and set-up costs of a series of separate studies.
-
-- [ ] TODO find some quotes / estimates to support these statements of cost
-
-2. **Learning health care systems implemented without randomisation risk bias**
-
-Learning health care systems "... integrate the practice of medicine and the generation of reliable medical evidence in a way that will promote both continuous learning and evidence based medical practice."[@london2018] Usually a learning health care system stops short of using RCTs as a methodology. Instead, they depend on cycles of observation and intervention: a version of quality improvement's Plan-Do-Study-Act (PDSA) cycle. The interventions are not novel experimental therapies but recommendations from existing practice supported by expert opinion, guidelines and consensus recommendations some but not all of which may be based on RCT evidence.
-Typically a panel of performance indicators is devised and tracked. As each intervention is implemented, these indicators are used to evaluate its impact and justify modifications, adjustments or new interventions. Inevitably, these PDSA style cycles cannot meet the standards of objectivity that an RCT can offer. There are prone to the same types of bias observational research must overcome.
-
-3. **Randomised controlled trials are not well adapted for non-binary questions**
-
-A Phase 3 trial comparing a new drug to a placebo is well suited to an RCT. However many questions in medicine are non-binary, and the RCT implementation often loses subtlety.  
-This in turn means clinicians lose equipoise. 
-Consider, as an example, the ARDSNet study of high versus low tidal volume ventilation, arguably the most famous trial of in critical care.[@ref] This reported that mortality was lower for mechanically ventilated patients if the tidal volume was 6ml/kg rather than 12ml/kg. Critics have often pointed out that the tidal volumes in the 'high' group was excessive.[@laffey2000] But more fundamentally, the trial is structurally unable to define the 'optimum' tidal volume (even on average). For that, we would need a multi-arm trial with patients assigned tidal volume targets ranging from below 6ml/kg up to 12ml/kg (i.e. 4ml/kg, 5ml/kg, 6ml/kg, 7ml/kg ...). Forcing a binary choice has further consequences. The bedside clinicians will often find that they the dichotomy is too stretched for their patient. In other words, they loose equipoise because one or more of the arms is too far from their own judgement (e.g. 6 versus 12 ml/kg). Without equipoise, the clinician cannot with conscience enrol the patient.
-A similar critique can be made of strategies that evaluate antibiotic duration, fluid balance, the optimum blood pressure, oxygen targets, or the timing of interventions. All of these are decisions that rest on a 'fine balance' of clinical judgement. 
-
-3. **Variation in practice implies clinical equipoise and treatment heterogeneity** 	
-
-> equipoise[^a]: ... honest, professional disagreement among expert clinicians about the relative clinical merits of interventions A and B for a particular patient population[@london2018] 
-
-Variation in practice is more often associated with poor quality care. One critical summary describes variation as the '60-30-10' problem wherein 60% of care conforms to best practice, 30% is ineffective or wasteful, and 10% is harmful.[@Braithwaite]. But even if we eradicate the harm and reducing the waste, there should still be variation. Where clinicians vary care based on a nuanced interpretation of the best available evidence, this is in line with the founding principles of Evidence Based Medicine (EBM).[Greenhalgh 2014] The evidence is after all only the average truth, and it is the clinician's job to recognise treatment heterogeneity and adapt to the circumstances of the individual patient. 
-
-- > treatment homogeneity versus heterogeneity[@longford1999]:
-> - homogeneity: treatment B is superior to treatment A for (almost) everybody in the designated population; 
-> - heterogeneity: treatment B is superior to treatment A for an average or typical subject in the designated population. *B may be inferior for a non-trivial proportion of subjects*.
-
-6. **Respiratory support for COVID-19 pneumonia**
-
-There are a lot of unanswered questions, and even with the energy currently being diverted toward COVID-19, existing methodological approaches can only hope to offer broad recommendations.
-
-Many questions in medicine are not binary. Even those questions that are translated into an RCT paradigm of Drug A vs Drug B
-
-
+PreMEDS+R: Precision Medicine via Embedded Decision Support with Randomisation 
+Developing a novel trials methodology for peri-operative medicine
 
 # Aim and objective (aka hypothesis)
 
@@ -72,40 +26,35 @@ Many questions in medicine are not binary. Even those questions that are transla
 That there is a portion of clinical care that can be optimised in a methodologically rigorous and ethically sound manner without resorting to standard parallel arm randomised controlled clinical trials.
 
 ## Aim
-This project aims to develop the framework for a learning health care system for ~~peri-operative medicine~~ the critical care management of acute respiratory failure using established infrastructure at a single site but with a proven ability to scale to multiple sites. 
-
-- [ ] NOTE focus on two aspects of RCTs where the 'nudge' could help
-        for the purposes of safely scaling (numbers, presumed or informed consent)
-        for the purposes of exposing clinical equipoise where that is normally hard to elicit: cite tracman etc. Approach this by talking about the difficulty of creating a dichotomous choice that seems to be fair
-        in both examples we use the prescriber/clinician as the target of the intervention rather than the patient
-- [ ] NOTE focus on two subjects: resp failure in the haem-onc / immunocompromise AND COVID
+This project aims to develop the framework for a learning health care system for peri-operative medicine using established infrastructure at a single site but with a pathway to scale to multiple sites. 
 
 ### Deliverables (Work packages)
-- [ ] TODO speak with Matthew Sydes: would he be interested in collaborating?
-- [ ] TODO speak with Tony in Birmingham about haem-onc
-- [ ] TODO: speak with WKW about COVID collaboration (formalise with CCHIC)
-- [ ] NOTE: intervention ideas
-        - fluid balance
-        - oxygen target
-        - timing of respiratory escalation
-
-1. Repurposing of the CCHIC database for COVID investigations and work (in collaboration with DECOVID?) ~~A high-quality prospective peri-operative medicine database built to scale across multiple NHS sites~~
+1. A high-quality prospective peri-operative medicine database built to scale across multiple NHS sites
 2. A pair of exemplar physician-prescribing preference studies
 	a. Comparison of conservative versus liberal oxygen targets on post-operative morbidity following high risk surgery admitted to critical care
-	b. Thresholds for respiratory escalation ... ~~Comparison of high versus low targets of Magnesium supplementation on post-operative atrial fibrillation following high risk surgery admitted to critical care~~	 
-3. A programme of work leading to a pilot embedded randomised controlled trial using a novel _nudge_ design also built to scale across multiple NHS sites (**REMAP-Nudge**)
+	b. Comparison of high versus low targets of Magnesium supplementation on post-operative atrial fibrillation following high risk surgery admitted to critical care	 
+3. A programme of work leading to a pilot embedded randomised controlled trial using a novel _nudge_ design also built to scale across multiple NHS sites (**PreMEDS+R**)
 
 I provide two worked examples (2a and 2b). However, this proposal is methodological, and other clinical questions would also be suitable, and may be prioritised by the integrated patient and public involvement (PPI) pathway.
 
+### COVID-19 and this proposal
+
+This proposal was originally submitted in January 2020 with peri-operative medicine as its target domain.
+
+I argued then that peri-operative medicine was an ideal space within which to develop this novel methodology, because I could start with a pre-emptive consent model implemented in the pre-assessment clinic, before moving to presumed (opt-out) consent. I built the previous version of this proposal around the evaluation of magnesium supplementation, and oxygen saturation targets in the peri-operative period. These interventions were selected because they were part of routine care wherein I could already identify variation in practice, where there was no gold standard randomised controlled trial evidence recommending a single approach, and where a there was a reasonable chance that a more personalised treatment approach provide benefit.
+
+I are now resubmitting in October 2020 as I head into the winter with a second surge of SARS-CoV-2 very likely. I continue to believe that the need to develop better methods for improving evidence generation should be the highest priority, and this remains the focus of our application. I recognise that both classical RCTs, and modern interpretations of the RCT (RECOVERY, and REMAP-CAP) are addressing key treatment questions. However, as rehearsed in detail below, these implementations can never hope to provide answers to the full range of scenarios that bedside clinicians must tackle. RECOVERY runs with five treatment arms and recruited 10,000 patients over just a couple of months, and REMAP-CAP with four domains and around 1,500 over a slightly longer time period. These trials are focused evaluations of specific, sometimes novel, sometime repurposed drug treatments. Even together, they address less than ten interventions representing a small fraction of the decisions that constitute the care pathway.
+
+For example, there are no trials evaluating the timing of intubation and ventilation for SARS-CoV-2. I do not know when to prone or stop proning patients. I have no evidence to select a particular PEEP target, nor what level of oxygen saturation is acceptable. The list of questions is almost innumerable. Should I humidify the ventilator circuits? What level of d-dimer would trigger investigation for pulmonary embolism? How much does fluid balance affect the risk of progression to respiratory failure and acute kidney injury? Crucially, even if I did find the resource to study each of these topics in an RCT, the final answer would be incomplete as it is inevitable that what is true on average will not be true for all subgroups. Some patients will tolerate lower oxygen saturations better than others. Some will need a more generous fluid balance.
+
+However, whilst this proposal provides a route to answering these questions, I have retained the focus on peri-operative medicine.  I did carefully consider reorientating the proposal toward treatment of SARS-CoV-2, but I do not think that would be right. I do not wish to create an expectation that I could provide answers that will be relevant to this surge, or even this pandemic. This would be unrealistic for a proposal that runs over four years with a pandemic that evolves week by week. In contrast, peri-operative medicine may be currently less topical but it represents a huge unmet need that has not been diminished by our current health crisis. I am also fortunate in that I have with my existing collaborators (Moonesinghe) the best possible chance of seeing this to success. 
+
+This does not diminish the needs for better learning systems for SARS-CoV-2. With a new disease, there too is great opportunity for learning, and arguably even greater variation in practice.  I have kept our original two target questions in this proposal. The oxygen target saturation is relevant to both peri-operative work and to respiratory failure in general. Suitable targets for supplementation of magnesium has less cross-over but my group has also already developed relevant preparatory work for this. I note though that the nature of the implementing a learning health care system involves building an active and genuine collaboration with patients. This means that it is likely that the target questions will be modified as I proceed through the four years. If SARS-CoV remains a major part of our work, then we too will pivot as needed. I believe this is eminently possible given the existing resource and infrastructure of the Critical Care Health Informatics Collaborative.
+
+---
 
 # Background
-
-- Matt's Magnesium nudge work
-- DECOVID work
-- Ed's oxygen work
-
-
-**Learning health care systems** "... integrate the practice of medicine and the generation of reliable medical evidence in a way that will promote both continuous learning and evidence based medical practice.[@london2018] This programme of work integrates digital health and _nudged_ rather than _mandated_ randomised interventions to create a safe, ethical delivery framework for this oft-cited and yet rarely implemented goal. I specifically focus on optimising the delivery of routine health care where pre-existing variation in practice implies clinical equipoise. The end result would be a system that delivers causally robust personalised treatment effects at scale.
+**Learning health care systems** "... integrate the practice of medicine and the generation of reliable medical evidence in a way that will promote both continuous learning and evidence based medical practice.[@london2018] The programme of work proposed here integrates digital health and _nudged_ rather than _mandated_ randomised interventions to create a safe, ethical delivery framework for this oft-cited and yet rarely implemented goal. I specifically focus on optimising the delivery of routine health care where pre-existing variation in practice implies clinical equipoise. The end result would be a system that delivers causally robust personalised treatment effects at scale.
 
 I build on the following three concepts: digital health, nudged interventions, and variation in practice:
 
@@ -127,100 +76,172 @@ I build on the following three concepts: digital health, nudged interventions, a
 
 Most importantly, it is crucial that this proposal is not read as a criticism of randomised controlled trials (RCT) in general. Rather this is an adaption of the RCT methodology to meet the need to deliver evidence based personalised medicine recommendations. As such, this approach is inappropriate for the investigation of novel drugs and interventions (e.g. CTIMPS, ATIMPS and other scenarios).
 
-## Narrative
-- [ ] TODO insert paean to RECOVERY (as good as it can get with RCTs at scale)
+4. **Optimum targets rather than binary comparisons** 
+- [ ] TODO insert this as your 4th area of focus
 
-**Hundreds of millions of decisions** are made every day by doctors, nurses and allied health professionals. Most decisions are so small and routine that we don't always notice them: do we give paracetamol for a fever? do we target an oxygen saturation of 94% or 98%; do we stop the antibiotics this morning or this afternoon? But it is inconveivable that the aggregate effect of all these decisions is not important.
+## Narrative
+
+**Hundreds of millions of decisions** are made every day by doctors, nurses and allied health professionals. Most decisions are so small and routine that we don't always notice them: do we give paracetamol for a fever? do we target an oxygen saturation of 94% or 98%; do we stop the antibiotics this morning or this afternoon? But it is inconveivable that the aggregate effect of all these decisions is unimportant.
 Randomised controlled trials (RCTs) are our 'go to' method for studying a single decision. But **traditional RCTs are slow, expensive and cumbersome**. Moreover they deliver results that are true on _average_ but not adapted for the individual. Personalised medicine recognises that variations in genotype and phenotype require treatments to be appropriately adapted. With unlimited sample size, such evidence could be generated but the cost would be prohibitive. Machine learning (ML) offers to use 'big data' to derive endotypes[^b] but without randomisation observational research remains vulnerable to bias through unmeasured confounding. This is also true for Artificial Intelligence (AI) techniques such as reinforcement learning.[@palmer2019; @komorowski2018]
 Parallel two arm (A vs B) RCTs are now being replaced with intelligent designs such as REMAP (**Randomised Embedded Multifactorial Adaptive Platform**) trials.[@angus2015] This automates data collection by **E**mbedding the trial in electronic health record (EHR). It **A**dapts the randomisation algorithm so that as a signal for benefit or harm emerges patients are preferentially allocated to the best strategy. And finally, **M**ultiple treatments (factors) are evaluated together using the same **P**latform so the cost of setting the trial up is shared. REMAP-CAP is the first attempt at this approach evaluating antibiotics, anti-virals and steroids for Community Acquired Pneumonia (CAP).[@2016a] Nonetheless, this is still a hugely expensive international collaboration recruiting initally 2800 patients across 50 sites over several years.[@2016b]
 The final result from REMAP-CAP will true _on average_ but cannot provide the right answer for the each patient who may have an allergy to the 'best' antibiotic, or be more susceptible to the immune suppression induced by the steroids, and so on. This **treatment heterogeneity** is driven by subtle endotypes not exposed by the RCT.[@iwashyna2015a] And herein lies the skill of the clinician. To take that average answer and decide if it applies to the particular situation. But while there is shared expertise, each clinician's personal experience creates variation. 
 We normally see such variation as a problem.[@wennberg2011] Electronic Health Record Systems (EHRS) often provide clinical decision support tools to improve compliance with evidence and reduce variation. It is assumed that the busy clinician who is more often unwittingly deviating from a guideline rather than personalising treatment. 
 But what if we used decision support to both **reduce variation where strong evidence is available, _and_ to learn from the existing variation where evidence is sparse**.
-We call this approach _**nudge learning**_, and propose a methodology called _**REMAP-Nudge**_. This design will ultimately depend on _presumed_ (opt-out) consent to allow the trial to scale, and through scale investigate treatment heterogeneity. However, such a paradigm shift in clinical trial implementation requires a pragmatic and stepped approach. This project proposes a stepped implementation building first (1) a high quality database to confirm treatment variation and capture the rich data needed for an embedded RCT; then (2) a programme of work that carefully evaluates patient and clinician acceptance of a nudge methodology; and (3) implements a pilot REMAP-Nudge trial in high risk surgery to estimate nudge compliance, and likely treatment effect sizes. The design is such that if successful the pilot study will then transform to a multi-site learning health care  programme to optimise care of the high risk surgical patient. 
+We call this approach _**nudge learning**_, and propose a trial design called _**PreMEDS+R**_. This design will ultimately depend on _presumed_ (opt-out) consent to allow the trial to scale, and through scale investigate treatment heterogeneity. However, such a paradigm shift in clinical trial implementation requires a pragmatic and stepped approach. This project proposes a stepped implementation building first (1) a high quality database to confirm treatment variation and capture the rich data needed for an embedded RCT; then (2) a programme of work that carefully evaluates patient and clinician acceptance of a nudge methodology; and (3) implements a pilot PreMEDS+R trial in high risk surgery to estimate nudge compliance, and likely treatment effect sizes. The design is such that if successful the pilot study will then transform to a multi-site learning health care  programme to optimise care of the high risk surgical patient. 
 We argue that this is the perfect domain in which to develop this methodology because **we leverage the anaesthetic pre-assessment clinic** to run the initial work using a _pre-emptive_ rather than presumed consent model.
 
 # Project plan
 
-This 4 year programme will build on two existing programmes. Firstly, the established **Critical Care Health Informatics Collaborative** (CCHIC) programme that holds data on 45000+ adminssions from 10+ NHS ICUs.[@harris2018b] The existing governance and data flows create an opportunity to magnify the influence of the RCOA/BOC grant to scale across multiple sites. Secondly, the **Experimental Medicine Application Platform** (EMAP) at UCLH where we have a proven track record of deploying novel applications in realtime against the hospital wide EHRS. More specifically, my team has spent the last two years building EMAP exactly to enable this sort of work. 
-EHR systems alone do not permit innovation and development. They are hampered by vendor lock-in, and by the need to prioritise clinical safety and reliability above all else. EMAP is a data science platform built for the NHS inside the NHS according to the following principles (1) Protection of operational systems by deploying a live mirror of the EHRS (2) Protection of patient privacy by following a 'code-to-data' rather than 'data-to-code' paradigm (3) Health care interoperability to permit cross-site collaboration and (4) Open source to foster a community of practice.
+This 4 year programme will build on three existing programmes. 
 
-## Work package 1: CCHIC-COVID
-**Objective: Build an extension to the Critical Care Health Informatics Collaborative (CCHIC) that focuses on respiratory failure in COVID-19**
+1. The established **Critical Care Health Informatics Collaborative** (CCHIC) programme that holds data on 45000+ adminssions from 10+ NHS ICUs.[@harris2018b] The existing governance and data flows create an opportunity to magnify the influence of the RCOA/BOC grant to scale across multiple sites. 
+2. The **Experimental Medicine Application Platform** (EMAP) at UCLH where I have a proven track record of deploying novel applications in realtime against the hospital wide EHRS. More specifically, my team has spent the last two years building EMAP exactly to enable this sort of work.  EHR systems alone do not permit innovation and development. They are hampered by vendor lock-in, and by the need to prioritise clinical safety and reliability above all else. EMAP is a data science platform built for the NHS inside the NHS according to the following principles (1) Protection of operational systems by deploying a live mirror of the EHRS (2) Protection of patient privacy by following a 'code-to-data' rather than 'data-to-code' paradigm (3) Health care interoperability to permit cross-site collaboration and (4) Open source to foster a community of practice.
+3. An existing collaboration with the Centre for Peri-operative Medicine at (CPOM) that has nurtured the last two Sprint National Anaesthesia Projects (SNAP). Together with Professor Moonesinghe, I co-led SNAP-2 that build a managed a (inter)national data set for high risk inpatient surgery.
+
+## Work package 1: CCHIC-Peri-op
+**Objective: Build an extension to the Critical Care Health Informatics Collaborative (CCHIC)**
 
 The NIHR established the Health Informatics Collaborative in 2014. UCL/UCLH has led the Critical Care theme.[@harris2018b] I have co-led the project (with Singer/Brealey/MacCallum) since 2015. We have ethics (REC 14/LO/103) and CAG approval (14/CAG/1001) plus data sharing agreements for 7 UK sites (including Cambridge/GSTT-Kings/Imperial/Oxford/UCL and now the Royal Marsden and Bristol). Routinely collected clinical data from critical care admissions is transferred to UCL's  ISO/IEC 27001:2013 compliant [data safe haven](https://www.ucl.ac.uk/isd/services/file-storage-sharing/data-safe-haven-dsh) where it is organised, cleaned, linked to Hospital Episode Statistics ([HES](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics)) to define health care utilisation and long term survival, and then made available as resource back to the critical care community.
 Since 2015, **we have curated data for >45,000 admissions to critical care with 250 data items and >250 million data points**. This resource has led to a series of publications[@palmer2019a; @meiring2018], and high profile presentations (Hot Topics, Intensive Care Society 2019). We have also launched an educational programme including datathons and training courses for clincal data scientists.[@harris] We have had a favourable review of our ethics (2019 5 year review), and ongoing support at PPI events.
 
-- [ ] TODO extend scope and ethics for COVID
-- we will extend the scope of the ethics and the collaboration agreements with participating sites to the same cohort studied under the recent 2^nd^ Sprint National Anaesthesia Project (SNAP-2 EpiCCS: Epidemiology of Critical Care after Surgery).[@moonesinghe2017] That is **patients staying in hospital overnight undergoing a surgical or interventional procedure that requires the prescence of an anaesthetist**.
+- I will extend the scope of the ethics and the collaboration agreements with participating sites to the same cohort studied under the recent 2^nd^ Sprint National Anaesthesia Project (SNAP-2 EpiCCS: Epidemiology of Critical Care after Surgery).[@moonesinghe2017] That is **patients staying in hospital overnight undergoing a surgical or interventional procedure that requires the prescence of an anaesthetist**.
+- I will expand the data specification to include **key case mix measures for peri-operative medicine** (patient comorbidites, risk factors, surgical procedures, anaesthetic techniques and intra- and post-operative complications) leveraging experience with SNAP-2, PQIP[@wagstaff2019] and NELA[@eugene2018]
+- I will standardise and generate **five high quality outcome measures** from these data (1) mortality (2) length of stay (3) planned and unplanned critical care admission and (4) POMS[@grocott2007] and (5) using the existing CCHIC permissions (HES/ONS) to define health care utilisation and long term survival
+- I will add metadata to all drugs, orders, and treatment decisions to capture a pseudonymised identifier for the clinical decision maker to build evidence for variation in practice, and preparatory physician-prescribing preference studies[@rassen2009c]
+- the scale and scope of data collection requires hospitals that have integrated Electronic Health Records (EHRs). The interventional arm of the study further requires a working clinical decision support technology. I have already had a favourable response from approaching the Cambridge BRC (see attached letter of support from Dr Ari Ercole). 
 
-- [ ] TODO expand data specification to handle both COVID and resp failure in the immunocompromised
-- we will expand the data specification to include **key case mix measures for peri-operative medicine** (patient comorbidites, risk factors, surgical procedures, anaesthetic techniques and intra- and post-operative complications) leveraging experience with SNAP-2, PQIP[@wagstaff2019] and NELA[@eugene2018]
-
-- [ ] TODO either drop this or re-orient to highlight PPI thinking
-- we will standardise and generate **five high quality outcome measures** from these data (1) mortality (2) length of stay (3) planned and unplanned critical care admission and (4) POMS[@grocott2007] and (5) using the existing CCHIC permissions (HES/ONS) to define health care utilisation and long term survival
-
-- we will add metadata to all drugs, orders, and treatment decisions to capture a pseudonymised identifier for the clinical decision maker to build evidence for variation in practice, and preparatory physician-prescribing preference studies[@rassen2009c]
-- the scale and scope of data collection requires hospitals that have integrated Electronic Health Records (EHRs). The interventional arm of the study further requires a working clinical decision support technology. We have already had a favourable response from approaching the Cambridge BRC (see attached letter of support from Dr Ari Ercole). 
-
-- [ ] TODO drop this; you will now need to talk about expanding through EHRS networks that are able to cope with the level of digital maturity necessary for this sort of approach
-We would see this CCHIC:Peri-op becoming the _premier international resource for observational studies of high risk surgery and peri-operative medicine_. Just at UCLH trust (including RNTNE, NHNN, WMS) we would expect to recruit >10,000 patients per year. Using the NIHR Health Informatics Collaborative network as a springboard alongside extensive and broad networks developed running SNAP-2/EpiCCS, we would seek funding to expand to further sites during the 4 years.
-
-## Work package 2: REMAP-nudge design
-**Objective: (1) Generate evidence of variation in practice using Physician Prescribing Preference studies and (2) Run a feasibilty study to test the REMAP-Nudge design**
-
-We have prepared two worked examples but it should be noted that in the actual project, the interventions to be tested will be developed and selected via a joint clinician/patient/public programme, and not investigator driven. This is especially important given that we will be moving to a presumed consent model, and that we will depend on the clinical workforce to engage with the **nudge** approach. Hence the actual questions to be studied may vary. Further examples might include
-
-- [ ] TODO update to focus on respiratory failure
-- Titration of noradrenaline to target mean arterial blood pressure
-- Titration of inspired oxygen to target haemoglobin saturation
-- Transfusion of packed red cells to target haemoglobin concentrations
-- Supplementation of magnesium and potassium based on plasma concentrations
-- Fluid balance targeting after elective surgery
-- Duration of routine antibiotic therapy following elective surgery
-
-The intervention that is chose will then be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement, and that we can deliver an effective PPI framework that will monitor its acceptability.
-
-### Physician Prescribing Preference (PPP) studies
-
-These studies exploit natural variation in practice. A classic example comes from the psychiatry literature where GPs have been show to have consistent preferences for different classes of Selective Serotonin Uptake Inhibitors (SSRIs) and Tricyclic Antidepressants (TCAs).[@davies2013] Patients treatments therefore depended on which GP they attended. Given that GP assignment can be argued to be unrelated to the self-harm/suicide (after controlling for social deprivation etc.) then this permits an evaluation of the relative effectiveness of these drugs. Comparable examples in critial care and peri-operative medicine would include transfusion triggers, oxygen targets, blood pressure targets, and antibiotic duration etc.
-
-- [ ] TODO too technical; rewrite
-We will use the pseudonymised reference to the prescriber captured in CCHIC-periop to define physicians prescribing preference as intercept estimates from a multi-level model (e.g. the administration of Magnesium would be the dependent variable with serum Magnesium and previous AF as the independent variables, and the prescriber as a random effect).
-
-Because prescribing preference is only one of many factors that affects the treatment decision then there is imperfect compliance. In other words, we are imagining an RCT where the patient's exposure to a pro- or anti- Magnesium 'top-up' clinician is the random coin toss. Other factors may trump the prescriber's preference (i.e. recent arrhythmias) but where the prescriber is otherwise indifferent then their inherent preference will affect the decision. For these marginal cases, we can use an Instrumental Variable (IV) technique to evaluate the causal effect of Magnesium on subsequent arrhythmias.
-
-This method therefore both demonstrate the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for REMAP-nudge.
+We would see this CCHIC:Peri-op becoming the _premier international resource for observational studies of high risk surgery and peri-operative medicine_. Just at UCLH trust (including RNTNE, NHNN, WMS) I would expect to recruit >10,000 patients per year. Using the NIHR Health Informatics Collaborative network as a springboard alongside extensive and broad networks developed running SNAP-2/EpiCCS, I would seek funding to expand to further sites during the 4 years.
 
 
-### Feasibility study
+- [ ] TODO see existing notes in word document that are not replicated here
 
-#### Problems with Consent
+## Work package 2: Patient and Public involvement
+**Objective: Build a patient, public, clinical and academic community to guide the development of this methodology**
 
+My team has already started a series of patient-public involvement panels for this work. Initial meetings have been positive but highlighted the difficulty in explaining the (1) natural variation that occurs with clinical care and (2) why we are not already performing research of this kind. Feedback has suggested that opt-out consent is likely to be acceptable to many, but depends on appropriate communication. We have a small grant from UCLH BRC that we will use to supplement the funds allocated from this proposal to build a dedicated patient and public panel to work with us for the duration of the project. UCLH BRC has expressed interest in this work, and already supports the AboutMe initiative[^c] that also embeds research into the clinical care pathways (focusing initially on stroke and the genomics of hypertension).
 
-This phase will undertake a qualitative assessment and analysis directed at the main stakeholders of the project, patients, relatives and clinicians.  This progresses an established programme (i.e. that of CCHIC) of patient and public involvement work in this area.  The focus of the qualitative assessment will be threefold:
+Patient and public involvement will be needed to
+- define and prioritise questions that might be suitable for the PreMEDS+R design
+- design and understand the communication issues necessary to be confident that we have adequate explanations of the risks and benefits of this approach for a wide range of health service users
+- design the qualitative interviews that will be conducted in the pilot phase (WP5) that will guide the transition from pre-emptive to opt-out consent
+- design the monitoring process that will be used to ensure that PreMEDS+R recruits, the right safeguards are in place to deliver the best evidence from existing literature and from the evolving inputs generated from the trial
 
-1.	Knowledge and attitudes towards variation in practice
-2.	Acceptability of the suggested investigative approach, with particular emphasis on the nudge randomisation tool for recruitment (and focusing on clinical acceptance of this approach)
-3.	Acceptability of pre-emptive and opt-out consent models
+We will appoint patient representatives to the project steering committee from the outset. I will deliver a series of focus group meetings that will help use build the communication strategy outlined above, and where necessary create appropriate media (patient information leaflets, posters, videos etc.) that can be used going forwards. I will then report back the qualitative feedback from the pilot trial to this group, and seek their guidance in understanding whether or not I have reached a stage where opt-out consent is a reasonable approach for the question at hand.
 
-The programme will be wrapped around the test implementation of a the nudge randomisation tool. We will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision support tools. The software engineering will be quality controlled so that it is suitable for submission for MHRA approval. Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
+## Work package 3: A toolkit for Clinician Prescribing Preference studies
+**Objective: Build a pipeline for rapid observational evaluation of interventions using variation in practice**
 
+Clinician Prescribing Preference (CPP) studies exploit natural variation in practice. A classic example comes from the psychiatric literature where GPs have been show to have consistent preferences for different classes of Selective Serotonin Uptake Inhibitors (SSRIs) and Tricyclic Antidepressants (TCAs).[@davies2013] Patients treatments therefore depended on which GP they attended. Given that GP assignment can be argued to be unrelated to the self-harm/suicide (after controlling for social deprivation etc.) then this permits an evaluation of the relative effectiveness of these drugs.
+
+My group has already completed an initial evaluation of this approach studying magnesium supplementation. We examined adult admissions to University College London Hospital Critical Care Unit (2016-17). Each patient’s admission was divided into ‘treatment windows’: including a serum magnesium measurement, an opportunity for supplementation linked to the bedside nurse on duty, and a period of observation (roughly equivalent to the 'day shift') for Atrial Fibrillation (AF). We identified 9,114 magnesium prescribing opportunities (1,914 patients). Approximately one-third of the variation in magnesium supplementation was due to the bedside nurse (see figure below) such that magnesium was supplemented on 48% of occasions where the nurse's habits placed them in the 'liberal' supplementation group versus 28% of occasions with 'conservative' nurses. AF was uncommon overall but decreased by approximately 3% when patient's were cared for by 'liberal' magnesium supplementers.
+
+![Probabilty of magnesium supplementation by bedside nurse](assets/mgbynurse.png)
+
+We will use the pseudonymised reference to the prescriber captured in CCHIC-periop (WP1) to define clinician's prescribing preferences for magnesium and oxygen saturation targets. Because prescribing preference is only one of many factors that affects the treatment decision then there is imperfect compliance. In other words, we are imagining an RCT where the patient's exposure to a pro- or anti- Magnesium 'top-up' clinician is the random coin toss. Other factors may trump the prescriber's preference (i.e. recent arrhythmias) but where the prescriber is otherwise indifferent then their inherent preference will affect the decision. For these marginal cases, we can use an Instrumental Variable (IV) technique to evaluate the causal effect of Magnesium on subsequent arrhythmias.
+
+This method both demonstrates the degree of exising variation in practice, and gives us an initial look at the likely effect size. We would repeat these studies as part of the evaluation pathway for any intervention being considered for PreMEDS+R. This work package builds a robust, reproducible, and repeatable pipeline for generating this evidence. And this evidence then informs the priorities, and design of the prospective evaluations in WP3 and WP5. As CCHIC-Periop expands, the incremental cost of studying additional interventions will decrease. Other suitable targets might include transfusion triggers, oxygen targets, blood pressure targets, and antibiotic duration etc.
+
+- [ ] TODO add in regression discontinuity story
+
+## Work package 4: PreMEDS+R design
+**Objective: To generate the supporting evidence (sample size, nudge design etc.) to transition the observational proposal to a trial protocol**
+This proposal is designed to generate a pipeline for rapid evidence generation. This means that each proposal will need to move through a templated series of steps. We will explore and develop methodologies within this work package to this end:
+
+- trial simulation to estimate feasibility. I will leverage existing collaborations to build a Bayesian simulation framework that will take the effect sizes estimated in WP3 via the CPP studies. These will be combined with initial estimates (to be iterated on in WP5) of nudge compliance to generate likely sample sizes. This in turn will be used to select which questions to prioritise and progress
+- factorial designs will be preferred where possible to permit evaluation of multiple interventions simultaneousy. The two exemplar questions (magnesium supplementation and oxygen targets) are not expected to have an interactions and would be appropriate for this approach. In all cases, we will nonetheless, need to confirm that the expected variation in practice remains across different factor levels; or set out to deliberately explore anticipated and desired interactions but adjust the sample size accordingly
+- human interface design for each question. We will need to examine where in the clinical workflow the decision point occurs, and what trigger in the electronic record will most appropriately and effectively deliver the nudge. For example, 
+    - magnesium supplementation is normally delivered in the first few hours of the day shift by the bedside nurse after he or she reviews the magnesium results from night time samples. There are several opportunities to nudge the bedside nurse: at first log on; when the magnesium result is first viewed in the EHR; or at custom times in the day based on known rhythms of work. 
+    - oxygen saturation targets are often set by the medical team during the daily ward round but may be left to the discretion of the junior clinician, or default to unit targets. Actioning of the target will then depend on the bedside nurse's rhythm of work, when they observe and record SpO2, and when they review the medical guidance. Again, we will need to choose the most appropriate moment to trigger the alert such that it is effective but non-intrusive (and counterproductive)
+
+The ideal any such scenario is for a nurse that guides behaviour as part of the routine workflow such that it reduces cognitive load (as in decision _support_) by providing relevant timely advice.
+
+- [ ] TODO stopping rules
+
+## Work package 5A: A feasibilty study with presumed consent
+**Objective: A feasibilty study to evaluate the PreMEDS+R design**
+- [ ] TODO use Matt's 'feasibility design'
+- [ ] TODO deliberately describe a factorial design to justify how this can scale
+
+The two interventions now be worked into a study protocol and submitted for approval by NHS Research Ethics. The purpose of the study is to prove that the nudge-randomisation tool is technically feasible to implement (that is convert the existing clinical decision support functionality to serve our needs), and that we can deliver an effective PPI framework that will monitor its acceptability (as per WP2). I will work with Epic Systems and the UCL Research Software Engineering team to modify existing decision support tools. The software engineering will be quality controlled to meet necessary standards for health care (ISO 62304 and DCB0129). Continued PPI work (using UCL BRC grant funding) in the form a patient focus group.  Mixed methods approach using surveys, semi-structured interviews and focus group output.
+
+The feasibilty study will be a prospective randomised clinical trial using a convenience sample from an appropriate surgical population.  Patients will be recruited from Anaesthetic Pre-assessment Clinic prior to surgery.  At this point decision to undergo surgery will have been taken.  Patients will receive a study information sheet and an explanation of the study from the recruiter.  Following this they will be offered an opportunity to provide (pre-emptive) written consent to the study. The study will then run as per the intended final design: embedded decision support with randomisation (via nudging). However, at this stage, a survey will be delivered to both clincians and patients along with follow-up qualitative interviews.
+The focus will be on
+- clinician compliance with the nudge (to adjust the sample size estimates)
+- clinical acceptabilty of the nudged design
+
+Primary Outcome:
+Clinician compliance with "nudge". 
+Number of times in the intervention arm that the clinician agrees to the "nudge", compared with the total number of opportunities to comply i.e. "nudge" efficacy.  Including variance of nudge compliance across treatment groups.
+Secondary Outcomes:
+1.	Qualitative semi-structured interview data from patients and families:
+a.	Existing knowledge of variation in practice as a concept.
+b.	The acceptability of a pre-emptive consent model.
+c.	The acceptability of clinician "nudge" randomisation tool.
+2.	Qualitative semi-structured interview data from clinicians:
+a.	Existing knowledge of variation in practice as a concept.
+b.	The acceptability of a pre-emptive consent model.
+c.	The acceptability of clinician "nudge" randomisation tool.
+3.	Variation in Magnesium targets  
+4.	Actual Magnesium delivery.
+5.	Prevalence of atrial fibrillation or other arrhythmias
+Safety Considerations
+
+The study will run as per 
+The primary objective will be sufficient qualitative evidence of 
+The study will be embedded in the EHR, and data collection processes will be evaluated.
+- Data collection:
+    - Outcomes, randomisation events, and confounders will be extracted from the electronic health record
+    - Qualitative interviews, surveys and small group discussions will be held with both the participating patients and with the clinician being 'nudged'. Topics for exploration will include
+
+    - Existing routinely collected clinical data from multiple electronic record systems on the ICU. The EHRS contains a pre-existing framework for integrating research, including a randomisation module to enable randomisation at the level of the individual patient record.  Having demonstrated patient and clinician acceptability of this tool, future work will embed this within the EHRS.
+Recruitment
+
+Patient Journey/Study Flow
 
 #### Outputs
 
 The feasibility phase provides grounding for research ethics committee applications but will again serve as a standalone piece of work.  It is anticipated that the output will be suitable for submission to a suitable journal in addition.
 
-**Objective: (1) Generate evidence of variation in practice using Physician Prescribing Preference studies and (2) Run a feasibilty study to test the REMAP-Nudge design**
 
-## Work package 3: REMAP-nudge pilot
-**Objective: Pilot the REMAP-nudge design using pre-emptive rather than presumed consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
+## Work package 5B: A pilot study with opt-out consent
+**Objective: Pilot the PreMEDS+R design using opt-out consent; estimate nudge compliance, recruitment, and effect size; prepare for a major programme grant**
 
+The final piece of work in this proposal will be to see the ideas designed thus far graduate to a full version of the PreMEDS+R design at one or more research sites. Our ambition will be to have applied for funding and support during year 3 for this to run at multiple sites. We think this is reasonable and likely given the evidence that we will have generated by that stage, but do not feel that we can fund such a programme within the scope of this grant alone. For that reason, this final WP is described at UCLH alone. 
+
+The trial itself will continue to run as per WP5A with the single exception of the timing of consent that will move to an opt-out model. This transition will be remain a target of tapering active evaluation. In other words, we will purposefully approach a random sample of patients during the early stages of the opt-out model to seek their views on the trial. We will gather evidence to ensure that they understood that they were on a treatment pathway where (1) uncertainty remains for the clinician and that (2) research including randomisation was being employed to reduce this uncertainty and that they (3) were aware of their rights to opt-out.
+
+The trial itself will be designed to prove that we can generate evidence according to the principles outlined. That is:
+- embedded within the electronic health record so that
+    - there is no additional burden of data collection
+    - trial monitoring including adaptive randomisation is delivered through the EHR
+- more than one intervention is evaluated simultaneously (e.g. both oxygen saturation targets and magnesium supplementation thresholds)
+- compliance with the nudge remains effective but deliberately imperfect indicating that we are identifying the individual moments of equipoise for each bedside clinician but that clinician nonetheless is prepared to override the nudged recommendation when they have relevant and particular knowledge
+- compliance with the decision support component remains effective so that unwarranted variation is reduced and treatments are consistent where evidence is available
+- that the inefficiency associated with nudged (rather than mandated) randomisation was more than compensated for by the recruitment rates achieved by embedding the randomisation event and allowing each clinician to find their own level of equipoise. 
+
+
+Success criteria will include
+- high levels of awareness of the study among patients on the treatment pathway
+- qualitative statements of support from patients who aware of the study
+- low levels of withdrawal from participation in the PreMEDS+R pathway 
+- consistent and non-trivial rates of compliance with the nudged randomisation 
+- recruitment rates that succeed by an order of magnitude those that could be achieved by standard approaches
+
+Stretch goals will include
+- successful funding applications to see the study extended to other sites
+- new clinical questions entering the beginning of the trial pipeline
+- early evidence of treatment effects that allow a treatment arm to be retired either because it has proven inferior or equivalent but more costly
+
+
+---
 
 # Endnotes
 
 [^a]: This is a more practical statement of theoretical equipoise which may be defined as "a state of uncertainty in the mind of the individual investigator regarding the relative merits of interventions A and B for some population of patients. When investigators are in such a state of uncertainty they do not knowingly disadvantage patients if they allow treatments to be allocated by a process that supports reliable medical inference, such as randomisation."
 
 [^b]: endotypes refer to distinct pathophysiological mechanisms within a disease entity that respond differently to treatments (i.e. create treatment heterogeneity) and therefore justify the idea of 'personalised medicine'
+
+[^c]: https://www.uclhospitals.brc.nihr.ac.uk/about-me
 
 
 # References
