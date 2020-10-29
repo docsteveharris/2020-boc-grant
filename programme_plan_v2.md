@@ -82,13 +82,16 @@ WP4
 Pilot nudge implementation (high tech)
 Define the targets that you need to capture the data
 
+??implement this as more of a QI/decision support tool first without the random learning component; then switch on the randomisation piece
+
+
 ## Work package 5: Pilot nudge-learning trial
 WP5 
 Pilot nudge implementation (low tech): how could this be scaled; could it work in non digitally mature centres
 NCL network
 RECOVERY style reporting
 
-
+??think about how this scles
 
 
 
